@@ -1,12 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>perfil01</title>
+    <link rel="stylesheet" href="./css/perfil.css">
+    <title>perfil</title>
 </head>
-<body>
-    <p>perfil01</p>
+<body class="body_perfil">
+    <script>
+        function teste(){
+            return(alert("kkkkk"))
+        }
+
+        function alterarNome(){
+            var inputPerfil = document.querySelector('.input_perfil');
+            inputPerfil.style.display = 'block';
+            var nome = inputPerfil.value;
+            var nomePerfil = document.querySelector('nome_perfil');
+        }
+    </script>
+    <div class="perfil">
+        
+        <img src="./img/astro-roxo.png" class="foto_perfil">
+        <button onclick=teste() class="bola_cruz">
+                <div class="vertical_cruz"></div>
+                <div class="horizontal_cruz"></div>
+        </button>
+        <div class="escolha_fotos">
+            <img class="astro_foto" src="./img/astro-amare.png">
+            <img class="astro_foto" src="./img/astro-azul.png">
+            <img class="astro_foto" src="./img/astro-verde.png">
+            <img class="astro_foto" src="./img/astro-verme.png">
+        </div>
+        <div class="xp_nivel">
+            <div class="barra_xp"></div>
+            <div class="bola_nivel">7</div>
+        </div>
+        <div class="info_usu">
+            <div class="div_lapis" onclick=alterarNome()>
+                <img class='lapis'src="./img/pencil.png">
+            </div>
+            <div class="div_texto">
+                <div class="nome_input">
+                    <h1 class="nome_perfil">Light Yagami</h1>
+                    <form action="" class="form_input">
+                        <input type="text" class="input_perfil">
+                    </form>
+                </div>
+                <h2 class="email_perfil">be******@gmail.com</h2>
+                <h2 class="senha_perfil">fo*********</h2>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
