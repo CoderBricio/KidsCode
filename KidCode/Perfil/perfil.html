@@ -8,22 +8,9 @@
     <title>perfil</title>
 </head>
 <body class="body_perfil">
-    <script>
-        function teste(){
-            return(alert("kkkkk"))
-        }
-
-        function alterarNome(){
-            var inputPerfil = document.querySelector('.input_perfil');
-            inputPerfil.style.display = 'block';
-            var nome = inputPerfil.value;
-            var nomePerfil = document.querySelector('nome_perfil');
-        }
-    </script>
     <div class="perfil">
-        
         <img src="./img/astro-roxo.png" class="foto_perfil">
-        <button onclick=teste() class="bola_cruz">
+        <button class="bola_cruz">
                 <div class="vertical_cruz"></div>
                 <div class="horizontal_cruz"></div>
         </button>
@@ -38,7 +25,7 @@
             <div class="bola_nivel">7</div>
         </div>
         <div class="info_usu">
-            <div class="div_lapis" onclick=alterarNome()>
+            <div class="div_lapis">
                 <img class='lapis'src="./img/pencil.png">
             </div>
             <div class="div_texto">
@@ -53,5 +40,27 @@
             </div>
         </div>
     </div>
+    <script>
+//Mostrar e esconder as fotos dos astronautas para o usuário escolher pro perfil.
+        var bolaCruz = document.querySelector('.bola_cruz'); 
+        var escolhaFotos = document.querySelector('.escolha_fotos');
+        bolaCruz.addEventListener("click", function(){
+            if(escolhaFotos.style.display === "none"){
+                escolhaFotos.style.display = "block";
+            }else{
+                escolhaFotos.style.display = "none";
+            }
+        })
+//Ao clicar no icone lapís, mostra e esconde o input para mudar nome do usuário        
+        var lapis = document.querySelector('.lapis'); 
+        var inputPerfil = document.querySelector('.input_perfil');
+        lapis.addEventListener("click", function (){
+            if(inputPerfil.style.display === "none"){
+                inputPerfil.style.display = "block";
+            }else{
+                inputPerfil.style.display = "none";
+            }
+        })
+    </script>
 </body>
 </html>

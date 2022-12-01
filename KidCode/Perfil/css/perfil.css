@@ -55,6 +55,7 @@
 }
 
 .escolha_fotos{
+    display: none;
     width: 10px;
     gap: 10px;
     position: absolute;
@@ -63,6 +64,10 @@
     bottom: 512px;
     background-color: none;
 
+}
+
+.hide{
+    display: none;
 }
 
 .astro_foto{
@@ -141,4 +146,6 @@
 .input_perfil{
     width: 100%;
     display: none;
+    color: white;
+    background: none;
 }
