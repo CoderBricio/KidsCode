@@ -9,16 +9,16 @@
 </head>
 <body class="body_perfil">
     <div class="perfil">
-        <img src="./img/astro-roxo.png" class="foto_perfil">
+        <img src="./img/astro-roxo.png" class="foto_perfil" >
         <button class="bola_cruz">
                 <div class="vertical_cruz"></div>
                 <div class="horizontal_cruz"></div>
         </button>
         <div class="escolha_fotos">
-            <img class="astro_foto" src="./img/astro-amare.png">
-            <img class="astro_foto" src="./img/astro-azul.png">
-            <img class="astro_foto" src="./img/astro-verde.png">
-            <img class="astro_foto" src="./img/astro-verme.png">
+            <img class="astro_foto" id="astro01" src="./img/astro-amare.png" >
+            <img class="astro_foto" id="astro02" src="./img/astro-azul.png">
+            <img class="astro_foto" id="astro03" src="./img/astro-verde.png">
+            <img class="astro_foto" id="astro04" src="./img/astro-verme.png">
         </div>
         <div class="xp_nivel">
             <div class="barra_xp"></div>
@@ -30,37 +30,16 @@
             </div>
             <div class="div_texto">
                 <div class="nome_input">
-                    <h1 class="nome_perfil">Light Yagami</h1>
-                    <form action="" class="form_input">
+                    <h1 class="nome_perfil"></h1>
+                    <form class="form_perfil">
                         <input type="text" class="input_perfil">
                     </form>
                 </div>
-                <h2 class="email_perfil">be******@gmail.com</h2>
-                <h2 class="senha_perfil">fo*********</h2>
+                <h2 class="email_perfil">ga******@gmail.com</h2>
+                <h2 class="senha_perfil">mine*********</h2>
             </div>
         </div>
     </div>
-    <script>
-//Mostrar e esconder as fotos dos astronautas para o usuário escolher pro perfil.
-        var bolaCruz = document.querySelector('.bola_cruz'); 
-        var escolhaFotos = document.querySelector('.escolha_fotos');
-        bolaCruz.addEventListener("click", function(){
-            if(escolhaFotos.style.display === "none"){
-                escolhaFotos.style.display = "block";
-            }else{
-                escolhaFotos.style.display = "none";
-            }
-        })
-//Ao clicar no icone lapís, mostra e esconde o input para mudar nome do usuário        
-        var lapis = document.querySelector('.lapis'); 
-        var inputPerfil = document.querySelector('.input_perfil');
-        lapis.addEventListener("click", function (){
-            if(inputPerfil.style.display === "none"){
-                inputPerfil.style.display = "block";
-            }else{
-                inputPerfil.style.display = "none";
-            }
-        })
-    </script>
+    <script src="./js/perfil.js"></script>
 </body>
 </html>
