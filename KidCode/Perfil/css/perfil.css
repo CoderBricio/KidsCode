@@ -32,6 +32,14 @@
     bottom: 30px;
 }
 
+.bola_cruz:hover{
+    border-color: aliceblue;
+}
+
+.bola_cruz:active{
+    border-color: red;
+}
+
 .vertical_cruz{
     height: 17px;
     width: 4px;
@@ -119,16 +127,33 @@
     border-radius: 5px;
 }
 
-.div_lapis{
+.container_lapis{
     width: 100%;
     display: flex;
     justify-content: flex-end;
 }
 
-.lapis {
-    width: 25px;
+
+.div_lapis{
+    padding: 3.8px;
+    border-radius: 100%;
     cursor: pointer;
 }
+
+.div_lapis:hover{
+    background-color: rgb(194, 199, 204, 0.5);
+}
+
+.div_lapis:active{
+    background-color: rgb(250, 6, 6);
+}
+
+.lapis {
+    width: 25px;
+    /*cursor: pointer;*/
+}
+
+
 
 .nome_perfil{
     margin-top: 20px;
