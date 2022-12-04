@@ -1,12 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>perfil01</title>
+    <link rel="stylesheet" href="./css/perfil.css">
+    <title>perfil</title>
 </head>
-<body>
-    <p>perfil01</p>
+<body class="body_perfil">
+    <div class="perfil">
+        <img src="./img/astro-roxo.png" class="foto_perfil" >
+        <button class="bola_cruz">
+                <div class="vertical_cruz"></div>
+                <div class="horizontal_cruz"></div>
+        </button>
+        <div class="escolha_fotos">
+            <img class="astro_foto" id="astro01" src="./img/astro-amare.png" >
+            <img class="astro_foto" id="astro02" src="./img/astro-azul.png">
+            <img class="astro_foto" id="astro03" src="./img/astro-verde.png">
+            <img class="astro_foto" id="astro04" src="./img/astro-verme.png">
+        </div>
+        <div class="xp_nivel">
+            <div class="barra_xp"></div>
+            <div class="bola_nivel">7</div>
+        </div>
+        <div class="info_usu">
+            <div class="container_lapis">
+                <div class="div_lapis">
+                    <img class='lapis'src="./img/pencil.png">
+                </div>
+            </div>
+            <div class="div_texto">
+                <div class="nome_input">
+                    <h1 class="nome_perfil"></h1>
+                    <form class="form_perfil">
+                        <input type="text" class="input_perfil">
+                    </form>
+                </div>
+                <h2 class="email_perfil">ga******@gmail.com</h2>
+                <h2 class="senha_perfil">mine*********</h2>
+            </div>
+        </div>
+    </div>
+    <script src="./js/perfil.js"></script>
 </body>
 </html>
