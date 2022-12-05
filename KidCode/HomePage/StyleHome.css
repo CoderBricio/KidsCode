@@ -1,6 +1,11 @@
+
+
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+    
     
     
 }
@@ -12,13 +17,14 @@
     height: 5rem;
     position: fixed;
     z-index: 99;
+    
 }
 
-.ContatosHomePage{
+.JogosHomePage{
     position: absolute;
     text-decoration: none;
     color: #0803B9;
-    margin-left: 20%;
+    margin-left: 22%;
     margin-top: 2%;
     font-size: 150%;
     z-index: 0;
@@ -55,8 +61,9 @@
     border-radius: 10px;
     font-size: 130%;
     color: white;
-    background: #0803B9;
+    background: #0000FF;
     cursor: pointer;
+    border: none;
     
 }
 
@@ -69,8 +76,9 @@
     border-radius: 10px;
     font-size: 130%;
     color: white;
-    background: #0803B9;
+    background: #0000FF;
     cursor: pointer;
+    border: none;
 }
 
 .BodyHomePage{
@@ -78,7 +86,8 @@
     
 }
 
-.SolHomePage{
+
+#SolHomePage{
     position: absolute;
     width: 22%;
     margin-top: 9%;
@@ -97,6 +106,12 @@
 @keyframes nuvemAnimation{
     from{
         transform: translateX(100px);
+    }
+}
+
+@keyframes nuvemGatoAnimation{
+    from{
+        transform: translateX(10px);
     }
 }
 
@@ -151,18 +166,37 @@
     position: absolute;
     width: 20%;
     margin-top: 110%;
-    margin-left:0.1%;
+    margin-left:5%;
+    z-index: 0;
+    animation: nuvemGatoAnimation 5s ease-in-out infinite alternate;
+}
+
+.NuvemHomePage7{
+    position: absolute;
+    width: 20%;
+   
+    margin-left:5%;
     z-index: 0;
     animation: nuvemAnimation 10s ease-in-out infinite alternate;
 }
+
+.NuvemHomePage8{
+    position: absolute;
+    width: 20%;
+   
+    margin-left:70%;
+    z-index: 0;
+    animation: nuvemAnimation 10s ease-in-out infinite alternate;
+}
+
 
 .MascoteNuvemHome{
     position: absolute;
     width: 10%;
     margin-top: 110%;
-    margin-left: 5% ;
+    margin-left: 10% ;
     z-index: 0;
-    animation: nuvemAnimation 10s ease-in-out infinite alternate;
+    animation: nuvemGatoAnimation 5s ease-in-out infinite alternate;
 }
 
 
@@ -210,14 +244,180 @@
 
 .TutorialTituloHomePage{
     position: absolute;
-    
+
     margin-left: 23%;
     margin-top: 110%;
     font-size: 230%;
+    max-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: pisca normal infinite .8s, escrever normal 5s steps(55) both infinite;
 
+}
+
+@keyframes pisca {
+    100%{
+        border-right-color: transparent;
+    }
+    
+}
+
+@keyframes escrever {
+    100%{
+        max-width: 100%;
+    }
+    
+}
+
+.VideoTutotiralHomePage{
+    width: 40%;
+    z-index: 99;
+    margin-top: 116%;
+    margin-left: 32%;
+}
+
+.SliderHome{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 220px;
+    width: 770px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.SlidersHome{
+    width: 400%;
+    height: 350px;
+    display: flex;
+}
+
+.InputSlideHome{
+    display: none;
+}
+
+.slidegeral{
+    width: 25%;
+    position: relative;
+}
+
+.manual-navegation{
+    position: absolute;
+    width: 810px;
+    margin-top: -40px;
+    display: flex;
+    margin-left: 300px;
+}
+
+.manual-btn{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background-color: black;
+}
+
+#radio1:checked ~ .slide1{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .slide1{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .slide1{
+    margin-left: -50%;
 }
 
 
 
 
+.Terra1Home{
+    position: absolute;
+    width: 1000px;
+    margin-left: 205px;
+    margin-top: 1000px;
+}
+
+.NaveHomePage{
+    position: absolute;
+    width: 100px;
+    margin-left: 605px;
+    margin-top: 1000px;
+}
+
+.FooterHomePage{
+    margin-top: 120%;
+    margin-left: 130px;
+    
+}
+
+#JogarBTNHome{
+    position: absolute;
+    margin-top: 750px;
+    margin-left: 610px;
+    width: 100px;
+    height: 50px;
+    background: #0000FF;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+.PoliticaHomePage{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+.AvisoHomePage{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+
+}
+
+.ParceirosHomePage{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+.DoaçãoHomePage{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+.InstagramHomePage{
+   margin-left: 250px;
+    width: 45px;
+   
+    
+    
+}
+
+.WhatsappHomepage{
+    width: 45px;
+    margin-left: 20px;
+    
+    
+
+}
+
+.GmailHomePage{
+    margin-left: 20px;
+    width: 45px;
+    
+    
+    
+}
 
