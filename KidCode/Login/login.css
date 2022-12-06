@@ -1,0 +1,197 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body{
+ background-image: linear-gradient(#0879e2,#0879e2, #6b97d4,#6898d6, #6e9cda,#8ca2d1,#a5a3c8, #b09ac0,#b199bd,#c999af);
+ background-repeat: no-repeat;
+ height:1500px;
+ width: 100px;
+}
+
+.sol{
+    width: 120px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%,-60%);
+    
+}
+
+.logo{width: 270px;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.botao_voltar{
+    width: 125px;
+    position: relative;
+    margin-top: -5%;
+    padding-left: 10%;
+    
+}
+
+@keyframes nuvemAnimation{
+    from{
+        transform:translateX(100px);
+    }
+}
+
+.nuvem1{
+width: 350px;
+padding-left: 1500%;
+margin-top: -100px;
+ 
+animation: nuvemAnimation 10s ease-in-out infinite alternate;
+
+}
+
+.nuvem2{
+    width: 350px;
+    position: relative;
+    margin-top: -270%;
+    padding-left: 100%;
+   
+    animation: nuvemAnimation 10s ease-in-out infinite alternate;
+}
+
+.foguete{
+    width: 270px;
+padding-left: 1300%;
+margin-top: -130%;
+
+}
+
+.nuvem3{
+width: 350px;
+margin-top: -80%;;
+padding-left: 300%;
+
+animation: nuvemAnimation 10s ease-in-out infinite alternate;
+}
+
+.nuvem4{
+    width: 230px;
+    margin-top: -150%;
+    width: 270px;
+   padding-left: 1600%;
+
+   animation: nuvemAnimation 10s ease-in-out infinite alternate;
+}
+
+.nuvem5{
+    width: 250px;
+    width: 270px;
+padding-left: 200%;
+margin-top: 10%;
+
+animation: nuvemAnimation 10s ease-in-out infinite alternate;
+}
+
+.nuvem6{
+    width: 2400px;
+    width: 300px;
+margin-top: -150%;;
+padding-left: 900%;
+
+animation: nuvemAnimation 10s ease-in-out infinite alternate;
+}
+
+.nuvem7{
+    width: 230px;
+    margin-top: -130%;
+    width: 270px;
+   padding-left: 1650%;
+
+   animation: nuvemAnimation 10s ease-in-out infinite alternate;
+
+}
+
+form{
+    background-color: #ffffff3f;
+    max-width: 400px;
+    width: 45%;
+    padding: 90px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 130px;
+    margin-top: 150px;
+    font-family: 'poppins', sans-serif;
+
+}
+
+.input-icons i {
+    position: absolute;
+    text-align: center;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+  
+.input-icons {
+    width: 95%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 10px;
+    color: rgb(12, 12, 12);
+    min-width: 50px;
+    display: block;
+   
+}
+  
+.input-field {
+    width: 70%;
+    padding: 10px;
+    box-shadow: 0 0 0 0;
+     outline: 0;
+    border-radius: 20px;
+   font-size: 25px;
+   border: white;
+   padding-left: 100px;
+    
+}
+  
+.logintxt{
+    padding-left: 10%;
+    font-size: 30px;
+    margin-bottom: 5px;
+    
+}
+
+h4{
+    text-align: center;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.botao_entrar{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 40%;
+    height:40% ;
+    background-color: #6432a0;
+    border-radius: 50px;
+    text-align: center;
+    color: white ;
+    font-weight: bold;
+    font-family: 'poppins', sans-serif; 
+    font-size: 20px;
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    
+}
+ 
+

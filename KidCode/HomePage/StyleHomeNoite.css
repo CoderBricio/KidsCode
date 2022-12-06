@@ -1,0 +1,501 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+    
+    
+    
+}
+
+
+.HeaderHomePage{
+    background: #0B0A4B;
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    z-index: 99;
+    
+}
+
+.JogosHomePage{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    margin-left: 22%;
+    margin-top: 2%;
+    font-size: 150%;
+    z-index: 0;
+    
+}
+
+.TutorialHomePage{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    margin-left: 33%;
+    margin-top: 2%;
+    font-size: 150%;
+    z-index: 0;
+    
+}
+
+.SobreHomePage{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    margin-left: 45%;
+    margin-top: 2%;
+    font-size: 150%;
+    z-index: 0;
+}
+
+.BotãoRegistroHomePage{
+    position: absolute;
+    margin-left: 75%;
+    margin-top: 0.9%;
+    width: 9%;
+    height: 65%;
+    border-radius: 10px;
+    font-size: 130%;
+    color: white;
+    background: 	#FFA500;
+    cursor: pointer;
+    border: none;
+    
+}
+
+.BotãoLoginHomePage{
+    position: absolute;
+    margin-left: 88%;
+    margin-top: 0.9%;
+    width: 9%;
+    height: 65%;
+    border-radius: 10px;
+    font-size: 130%;
+    color: white;
+    background: 	#FFA500;
+    cursor: pointer;
+    border: none;
+}
+
+.BodyHomePage{
+    background: #0B0A4B;
+    
+}
+
+
+#LuaHomePage{
+    position: absolute;
+    width: 20%;
+    margin-top: 9%;
+    z-index: 0;
+    margin-left: 20px;
+   
+}
+
+.LogoHomePage{
+    position: absolute;
+    width: 40%;
+    margin-top: 12%;
+    margin-left: 32%;  
+    z-index: 98;  
+}
+
+@keyframes nuvemAnimation{
+    from{
+        transform: translateX(100px);
+    }
+}
+
+@keyframes nuvemGatoAnimation{
+    from{
+        transform: translateX(10px);
+    }
+}
+
+
+.NuvemHomePage1{
+    position: absolute;
+    width: 20%;
+    margin-top: 25%;
+    margin-right: 20%;
+    z-index: 0;
+
+    animation: nuvemAnimation 10s ease-in-out infinite alternate;
+}
+
+.Estrela1{
+    position: absolute;
+    width: 30px;
+    margin-top: 400px;
+}
+
+.Estrela2{
+    position: absolute;
+    width: 30px;
+    margin-top: 300px;
+    margin-left: 550px;
+}
+
+.Estrela3{
+    position: absolute;
+    width: 30px;
+    margin-top: 250px;
+    margin-left: 1300px;
+}
+
+.Estrela4{
+    position: absolute;
+    width: 30px;
+    margin-top: 120px;
+    margin-left: 800px;
+}
+
+.Estrela5{
+    position: absolute;
+    width: 30px;
+    margin-top: 700px;
+    margin-left: 830px;
+}
+
+.Estrela6{
+    position: absolute;
+    width: 30px;
+    margin-top: 970px;
+    margin-left: 400px;
+}
+
+.Estrela7{
+    position: absolute;
+    width: 30px;
+    margin-top: 1300px;
+    margin-left: 800px;
+}
+
+.Estrela8{
+    position: absolute;
+    width: 30px;
+    margin-top: 1350px;
+    margin-left: 300px;
+}
+
+.Estrela9{
+    position: absolute;
+    width: 30px;
+    margin-top: 2500px;
+    margin-left: 300px;
+}
+
+.Estrela10{
+    position: absolute;
+    width: 30px;
+    margin-top: 2650px;
+    margin-left: 1250px;
+}
+
+.Estrela11{
+    position: absolute;
+    width: 30px;
+    margin-top: 2000px;
+    margin-left: 650px;
+}
+
+.NuvemHomePage2{
+    position: absolute;
+    width: 20%;
+    margin-top: 16%;
+    margin-left: 60%;
+    z-index: 0;
+    animation: nuvemAnimation 10s ease-in-out infinite alternate;
+}
+
+.NuvemHomePage3{
+    position: absolute;
+    width: 20%;
+    margin-top: 45%;
+    margin-left: 70%;
+    z-index: 0;
+    animation: nuvemAnimation 10s ease-in-out infinite alternate;
+}
+
+.NuvemHomePage4{
+    position: absolute;
+    width: 20%;
+    margin-top: 55%;
+    margin-left: 10%;
+    z-index: 0;
+    animation: nuvemAnimation 10s ease-in-out infinite alternate;
+}
+
+.NuvemHomePage5{
+    position: absolute;
+    width: 20%;
+    margin-top: 84%;
+    margin-left: 65%;
+    z-index: 0;
+    animation: nuvemAnimation 10s ease-in-out infinite alternate;
+}
+
+.NuvemHomePage6{
+    position: absolute;
+    width: 20%;
+    margin-top: 110%;
+    margin-left:5%;
+    z-index: 0;
+    animation: nuvemGatoAnimation 5s ease-in-out infinite alternate;
+}
+
+.NuvemHomePage7{
+    position: absolute;
+    width: 20%;
+   
+    margin-left:5%;
+    z-index: 0;
+    animation: nuvemAnimation 10s ease-in-out infinite alternate;
+}
+
+.NuvemHomePage8{
+    position: absolute;
+    width: 20%;
+   
+    margin-left:70%;
+    z-index: 0;
+    animation: nuvemAnimation 10s ease-in-out infinite alternate;
+}
+
+
+.MascoteNuvemHome{
+    position: absolute;
+    width: 10%;
+    margin-top: 110%;
+    margin-left: 10% ;
+    z-index: 0;
+    animation: nuvemGatoAnimation 5s ease-in-out infinite alternate;
+}
+
+
+
+
+.JogosHomePageTitulo{
+    position: absolute;
+     color: white;
+    margin-left: 45%;
+    margin-top: 60%;
+    font-size: 230%;
+}
+
+.DesenhoGameHome{
+    position: absolute;
+    width: 10%;
+    margin-top: 75%;
+    margin-left: 15%;
+}
+
+.SnakeGameHome{
+    position: absolute;
+    width: 10%;
+    margin-top: 75%;
+    margin-left: 34%;
+
+}
+
+.LabirintoGameHome{
+    position: absolute;
+    width: 10%;
+    margin-top: 75%;
+    margin-left: 53%;
+
+}
+
+.QuizGameHome{
+    position: absolute;
+    width: 10%;
+    margin-top: 75%;
+    margin-left: 74%;
+
+}
+
+
+.TutorialTituloHomePage{
+    position: absolute;
+
+    margin-left: 23%;
+    margin-top: 110%;
+    font-size: 230%;
+    max-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: pisca normal infinite .8s, escrever normal 5s steps(55) both infinite;
+    color: white;
+
+}
+
+@keyframes pisca {
+    100%{
+        border-right-color: transparent;
+    }
+    
+}
+
+@keyframes escrever {
+    100%{
+        max-width: 100%;
+    }
+    
+}
+
+.VideoTutotiralHomePage{
+    width: 40%;
+    z-index: 99;
+    margin-top: 116%;
+    margin-left: 32%;
+}
+
+.SliderHome{
+    position: absolute;
+    margin-left: 340px;
+    margin-top: 220px;
+    width: 630px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.SlidersHome{
+    width: 400%;
+    height: 350px;
+    display: flex;
+}
+
+.InputSlideHome{
+    display: none;
+}
+
+.slidegeral{
+    width: 25%;
+    position: relative;
+}
+
+.manual-navegation{
+    position: absolute;
+    width: 810px;
+    margin-top: -60px;
+    display: flex;
+    margin-left: 280px;
+}
+
+.manual-btn{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background-color: white;
+}
+
+#radio1:checked ~ .slide1{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .slide1{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .slide1{
+    margin-left: -50%;
+}
+
+
+
+
+.Terra1Home{
+    position: absolute;
+    width: 1000px;
+    margin-left: 205px;
+    margin-top: 1000px;
+}
+
+.NaveHomePage{
+    position: absolute;
+    width: 100px;
+    margin-left: 605px;
+    margin-top: 1000px;
+}
+
+.FooterHomePage{
+    margin-top: 120%;
+    margin-left: 130px;
+    
+}
+
+#JogarBTNHome{
+    position: absolute;
+    margin-top: 750px;
+    margin-left: 610px;
+    width: 100px;
+    height: 50px;
+    background: #0000FF;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+.PoliticaHomePage{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.AvisoHomePage{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+
+}
+
+.ParceirosHomePage{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.DoaçãoHomePage{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.InstagramHomePage{
+   margin-left: 250px;
+    width: 45px;
+   
+    
+    
+}
+
+.WhatsappHomepage{
+    width: 45px;
+    margin-left: 20px;
+    
+    
+
+}
+
+.GmailHomePage{
+    margin-left: 20px;
+    width: 45px;
+    
+    
+    
+}
+
