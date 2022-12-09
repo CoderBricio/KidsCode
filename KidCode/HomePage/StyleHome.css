@@ -20,6 +20,15 @@
     
 }
 
+.imgX{
+    cursor: pointer;
+    position: absolute;
+    width: 100px;
+    top: 12%;
+    left: 10%;
+}
+
+
 .JogosHomePage{
     position: absolute;
     text-decoration: none;
