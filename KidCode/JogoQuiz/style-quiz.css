@@ -100,7 +100,7 @@ header {
     margin-bottom: 5%;
 
  
-animation: foguete-quizAnimation 0.9s ease-in-out infinite alternate;
+animation: foguete-quizAnimation 0.8s ease-in-out infinite alternate;
 
 }
 
@@ -193,12 +193,21 @@ animation: foguete-quizAnimation 0.9s ease-in-out infinite alternate;
     font-size: 20px;
 }
 
+@keyframes monstro2-quizAnimation{
+    from{
+        transform:translateY(60px);
+    }
+}
 .monstro2-quiz {
-    margin-top: 10%;
+    margin-top: 8%;
     width: 9%;
     padding-left: 65%;
-    position: relative;
+    
+ 
+animation: monstro2-quizAnimation 0.5s ease-in-out infinite alternate;
+
 }
+
 
 .fogo2-quiz {
     width: 25%;
@@ -211,7 +220,7 @@ animation: foguete-quizAnimation 0.9s ease-in-out infinite alternate;
     width: 35%;
     height: 80%;
     margin-right: 0.0%;
-    margin-top: -16%;
+    margin-top: -13%;
     display: flex;
 }
 
