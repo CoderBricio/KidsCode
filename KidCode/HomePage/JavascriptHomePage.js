@@ -18,3 +18,10 @@ switch(fotoPerfilHomeSrc){
         imgX.src = "../Perfil/img/astro-verde.png";
     }break;
 }
+
+/*Ao clicar no astronauta, pegará a src da foto da home page e transportará para a página de perfil. Isso é uma forma de salvar as alterações do usuário na pagina de perfil*/
+var rotaPerfil01 = document.querySelector(".rota_perfil01");
+rotaPerfil01.addEventListener("click", function(){
+    var persistenteSrcPerfil = imgX.src;
+    localStorage.setItem("valueSrcPerfil", persistenteSrcPerfil);
+});
