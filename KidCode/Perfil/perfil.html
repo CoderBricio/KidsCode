@@ -5,26 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/perfil.css">
-    <title>perfil</title>
+    <title>KidsCode</title>
 </head>
 <body class="body_perfil">
+<!--Botão para home page-->
+<!--Botão para home page--> 
+    <a href="../HomePage/homeDia.html" class="bola_x">
+        <div class="x1"></div>
+        <div class="x2"></div>
+    </a>
+<!--div agregadora do perfil-->
     <div class="perfil">
+<!--foto do perfil que o usuário escolheu-->
         <img src="./img/astro-roxo.png" class="foto_perfil" >
+<!--botão que mostra e esconde fotos de astronautas para o usuário escolher-->
         <button class="bola_cruz">
                 <div class="vertical_cruz"></div>
                 <div class="horizontal_cruz"></div>
         </button>
+<!--As fotos dos astronautas mencionado-->
         <div class="escolha_fotos">
             <img class="astro_foto" id="astro01" src="./img/astro-amare.png" >
             <img class="astro_foto" id="astro02" src="./img/astro-azul.png">
             <img class="astro_foto" id="astro03" src="./img/astro-verde.png">
             <img class="astro_foto" id="astro04" src="./img/astro-verme.png">
         </div>
+<!--barra de xp e o nível-->
         <div class="xp_nivel">
             <div class="barra_xp"></div>
             <div class="bola_nivel">7</div>
         </div>
+<!--parte onde mostra nome de usuário, email, senha e icone-->
         <div class="info_usu">
+<!--lápis que mostre e esconde um input. O input ao receber um nome, nome de usuário é alterado-->
             <div class="container_lapis">
                 <div class="div_lapis">
                     <img class='lapis'src="./img/pencil.png">
@@ -32,7 +45,8 @@
             </div>
             <div class="div_texto">
                 <div class="nome_input">
-                    <h1 class="nome_perfil"></h1>
+<!--nome do usuário-->
+                    <h1 class="nome_perfil">Astronauta</h1>
                     <form class="form_perfil">
                         <input type="text" class="input_perfil">
                     </form>
