@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+header{
+    position: fixed;
+}
+
+
+
+.LogoLabirinto{
+    position: absolute;
+    width: 140%;
+    height: 12%;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+
+
+
+
+body{
+    background: linear-gradient(to top,#75D8C5,#7598D8);
+}
+
+.QueJogo{
+    position: absolute;
+    text-decoration: none;
+    color: #0803B9;
+    margin-left: 500px;
+}
+
+.jogar{
+    position: absolute;
+    text-decoration: none;
+    color: #0803B9;
+    margin-left: 700px;
+
+}
+
+.Objetivo{
+    position: absolute;
+    text-decoration: none;
+    color: #0803B9;
+    margin-left: 900px;
+}

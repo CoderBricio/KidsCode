@@ -287,16 +287,16 @@
 
 .SliderHome{
     position: absolute;
-    margin-left: 300px;
+    margin-left: 23%;
     margin-top: 220px;
-    width: 770px;
-    height: 350px;
+    width: 57%;
+    height: 70%;
     overflow: hidden;
 }
 
 .SlidersHome{
     width: 400%;
-    height: 350px;
+    height: 330px;
     display: flex;
 }
 
@@ -351,20 +351,20 @@
 .Terra1Home{
     position: absolute;
     width: 1000px;
-    margin-left: 205px;
-    margin-top: 1000px;
+    margin-left: 15%;
+    margin-top: 73%;
 }
 
 .NaveHomePage{
     position: absolute;
     width: 100px;
-    margin-left: 605px;
-    margin-top: 1000px;
+    margin-left: 45%;
+    margin-top: 72%;
 }
 
 .FooterHomePage{
     margin-top: 120%;
-    margin-left: 130px;
+    margin-left: 3%;
     
 }
 
