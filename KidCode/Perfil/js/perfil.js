@@ -5,6 +5,29 @@ bolaX.addEventListener("click", function(){
     localStorage.setItem("valueSrc", persistenteSrc);
 });
 
+
+/*Quando a pessoa vinher da home page para o perfil, pegará a foto da homepage e colocara na foto de perfil. Isso é uma forma de salvar as alterações que usuário fizer.*/
+var fotoPerfil = document.querySelector(".foto_perfil");
+var fotoPerfilSrc = localStorage.getItem("valueSrcPerfil");
+switch(fotoPerfilSrc){
+    case "file:///C:/KidCode/KidCode/Perfil/img/astro-roxo.png":{
+        fotoPerfil.src = "../Perfil/img/astro-roxo.png";
+    }break;
+    case "file:///C:/KidCode/KidCode/Perfil/img/astro-azul.png":{
+        fotoPerfil.src = "../Perfil/img/astro-azul.png";
+    }break;
+    case "file:///C:/KidCode/KidCode/Perfil/img/astro-amare.png":{
+        fotoPerfil.src = "../Perfil/img/astro-amare.png";
+    }break;
+    case "file:///C:/KidCode/KidCode/Perfil/img/astro-verme.png":{
+        fotoPerfil.src = "../Perfil/img/astro-verme.png";
+    }break;
+    case "file:///C:/KidCode/KidCode/Perfil/img/astro-verde.png":{
+        fotoPerfil.src = "../Perfil/img/astro-verde.png";
+    }break;
+}
+
+
 //Mostrar e esconder as fotos dos astronautas para o usuário escolher pro perfil.
 const bolaCruz = document.querySelector('.bola_cruz'); 
 const escolhaFotos = document.querySelector('.escolha_fotos');
