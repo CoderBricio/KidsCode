@@ -164,22 +164,26 @@ h2{
 
 .planetas .planeta_desenho{
     position: absolute;
-    animation: animate 0.2s ease infinite;
+    animation: animate 1s ease infinite;
 }   
 
 .planetas .planeta_cobrinha{
     position: absolute;
-    animation: animate 0.2s ease infinite;
+    animation: animate 1s ease infinite;
 }
 
 .planetas .planeta_labirinto{
     position: absolute;
-    animation: animate 0.2s ease infinite;
+    animation: animate 1s ease infinite;
 }
 
 .planetas .planeta_quiz{
     position: absolute;
-    animation: animate 0.2s ease infinite;
+    animation: animate 1s ease infinite;
+}
+
+.NavePrincial{
+    margin-left: 5%;
 }
 
 
