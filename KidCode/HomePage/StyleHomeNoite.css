@@ -363,10 +363,10 @@
 
 .SliderHome{
     position: absolute;
-    margin-left: 340px;
-    margin-top: 220px;
-    width: 630px;
-    height: 350px;
+    margin-left: 26%;
+    margin-top: 20%;
+    width: 45.5%;
+    height: 70%;
     overflow: hidden;
 }
 
@@ -426,16 +426,16 @@
 
 .Terra1Home{
     position: absolute;
-    width: 1000px;
-    margin-left: 205px;
-    margin-top: 1000px;
+    width: 70%;
+    margin-left: 14%;
+    margin-top: 73%;
 }
 
 .NaveHomePage{
     position: absolute;
     width: 100px;
-    margin-left: 605px;
-    margin-top: 1000px;
+    margin-left: 45%;
+    margin-top: 72%;
 }
 
 .FooterHomePage{
@@ -446,8 +446,8 @@
 
 #JogarBTNHome{
     position: absolute;
-    margin-top: 750px;
-    margin-left: 610px;
+    margin-top: 60%;
+    margin-left: 45%;
     width: 100px;
     height: 50px;
     background: #0000FF;

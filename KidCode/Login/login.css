@@ -19,7 +19,9 @@ body{
     
 }
 
-.logo{width: 270px;
+.logo{
+    z-index: 99;
+    width: 270px;
     position: absolute;
     left: 50%;
     top: 25%;
@@ -41,53 +43,24 @@ body{
     }
 }
 
-.nuvem1{
-width: 350px;
-padding-left: 1500%;
-margin-top: -100px;
- 
-animation: nuvemAnimation 10s ease-in-out infinite alternate;
 
-}
 
-.nuvem2{
-    width: 350px;
-    position: relative;
-    margin-top: -270%;
-    padding-left: 100%;
-   
-    animation: nuvemAnimation 10s ease-in-out infinite alternate;
-}
 
-.foguete{
-    width: 270px;
-padding-left: 1300%;
-margin-top: -130%;
-
-}
 
 .nuvem3{
 width: 350px;
 margin-top: -80%;;
-padding-left: 300%;
+padding-left: 3%;
 
 animation: nuvemAnimation 10s ease-in-out infinite alternate;
 }
 
-.nuvem4{
-    width: 230px;
-    margin-top: -150%;
-    width: 270px;
-   padding-left: 1600%;
-
-   animation: nuvemAnimation 10s ease-in-out infinite alternate;
-}
 
 .nuvem5{
     width: 250px;
     width: 270px;
 padding-left: 200%;
-margin-top: 10%;
+margin-top: 3%;
 
 animation: nuvemAnimation 10s ease-in-out infinite alternate;
 }
@@ -112,13 +85,14 @@ animation: nuvemAnimation 10s ease-in-out infinite alternate;
 }
 
 form{
+    z-index: 99;
     background-color: #ffffff3f;
     max-width: 400px;
     width: 45%;
     padding: 90px;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 70%;
     transform: translate(-50%,-50%);
     border-radius: 130px;
     margin-top: 150px;
