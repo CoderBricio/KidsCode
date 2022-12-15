@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='Registro/css/styleRegistro.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="{{ url_for('static',filename='favicon.ico') }}" type="image/x-icon">
+    <title>Registro</title>
+</head>
+    <main>
+        <a href="{{ url_for ('home1') }}"><img src="../../static/Registro/images/botao-voltar-2.png" class="BTNVOLTAR"></a>
+        <img src="../../static/Registro/images/lua.png" class="Lua">
+        <img src="../../static/Registro/images/logo2.png" class="Logo">
+
+        <div class="Background-images">
+        <img src="../../static/Registro/images/nuvem.png" class="Nuvem01">
+        <img src="../../static/Registro/images/nuvem.png" class="Nuvem02">
+        <img src="../../static/Registro/images/nuvem.png" class="Nuvem03">
+        <img src="../../static/Registro/images/nuvem.png" class="Nuvem04">
+        <img src="../../static/Registro/images/nuvem.png" class="Nuvem05">
+        <img src="../../static/Registro/images/estrela.png" class="Estrela01">
+        <img src="../../static/Registro/images/estrela.png" class="Estrela02">
+        <img src="../../static/Registro/images/estrela.png" class="Estrela03">
+        <img src="../../static/Registro/images/estrela.png" class="Estrela04">
+        <img src="../../static/Registro/images/estrela-cadente.png" class="EstrelaCad">
+        </div>
+
+        <div class="LoginContet">
+            <form action="Registro" method="post">
+                <h3 class="Nome">Nome</h3>
+                    <input name="Nome" type="name" placeholder="Digite seu nome" class="InputNome">
+                <h3 class="Email"> Email</h3>
+                    <input name="Email" type="email" placeholder="Digite seu email" class="InputEmail">
+                <h3 class="Senha"> Senha</h3>
+                    <input name="Senha" type="password" placeholder="Digite sua senha" class="InputSenha">
+                <h3 class="Idade">Quantos anos vocè tem?</h3>
+                    <input name="Idade" type="number" placeholder="Digite sua idade" class="InputIdade">
+                <button type="submit" class="BotãoCadastro">Cadastrar</button>
+            </form>
+            <h3 class="Opção">Ou entrar com</h3>
+                <a href="#"><img src="../../static/Registro/images/gmail.png" class="LinkGmail"></a>
+                <a href="#"><img src="../../static/Registro/images/instagram.png" class="LinkInsta"></a>
+                <a href="#"><img src="../../static/Registro/images/facebook (1).png" class="LinkFace"></a>
+        </div>
+    </main>
+</html>

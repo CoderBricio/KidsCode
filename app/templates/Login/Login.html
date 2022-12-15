@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="{{ url_for('static',filename='Login/css/login.css') }}"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="{{ url_for('static',filename='favicon.ico') }}" type="image/x-icon">
+    <title>Login</title>
+
+</head>
+
+<body>
+
+    <img class="sol" src="../../static/Login/images/sol.png" />
+    <img class="logo" src="../../static/Login/images/logo2.png" />
+     <a href="{{ url_for ('home1') }}">
+    <input type="image" class="botao_voltar" src="../../static/Login/images/botao-voltar.png" />
+    </a>   
+    <img class="nuvem3" src="../../static/Login/images/Nuvem.png" />
+    
+
+    <div class="submit-line">
+        <form action="login" method="post">
+            <h3 class="logintxt">E-mail: </h3>
+            <div class="input-icons">
+                <i class="fa fa-envelope icon">
+                </i>
+                <input class="input-field" type="email" name="EmailLogin" placeholder=" Digite seu e-mail">
+            </div>
+
+            <h3 class="logintxt">Senha:</h3>
+
+            <div class="input-icons">
+                <i class="fa fa-key icon">
+                </i>
+                <input class="input-field" type="password" name="SenhaLogin" placeholder="Digite sua senha">
+            </div>
+
+            <h4>Esqueceu sua senha?</h4>
+            <input class="botao_entrar" type="submit" name="acao" value="Entrar"/>
+        </form>
+
+        <img class="nuvem5" src="../../static/Login/images/Nuvem.png" />
+        <img class="nuvem6" src="../../static/Login/images/Nuvem.png" />
+    </div>  
+</body>
+</html>

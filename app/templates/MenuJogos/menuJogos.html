@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static',filename='MenuJogos/css/menuJogos.css') }}">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="{{ url_for('static',filename='favicon.ico') }}" type="image/x-icon">
+        <title>Menu dos Jogos</title>
+    </head>
+    <header>
+    </header>
+    <body>
+
+        <div id=movimento ></div>
+ 
+        <div class="scene">
+            <div class="logo">
+                <a href="{{ url_for ('home1') }}"><img src="../../static/MenuJogos/images/logo.png" class="logo"></a>
+                <h2  id="object">Escolha seu destino</h2>
+            </div>
+
+            <div class="container">
+                <div class="container1"></div>
+                <img src="https://cdn-icons-png.flaticon.com/512/901/901787.png" width="15%" class="NavePrincial">
+            </div>
+        </div>
+
+
+    <div class="planetas" >
+
+        <div class="planeta_quiz">
+            <a href="{{ url_for ('quiz') }}" target="_blank">
+                <img src="../../static/MenuJogos/images/planeta roxo.png" width="70px" alt=""></a>
+            <p>Quiz</p>
+        </div>
+
+        <div class="{{ url_for ('Desenho') }}">
+            <a href="/JogoDesenho/Desenho.html" target="_blank">
+                <img src="../../static/MenuJogos/images/planeta cinza.png" width="70px" alt=""></a>
+            <p>Desenho</p>
+        </div>
+
+         <div class="{{ url_for ('Cobrinha') }}">
+            <a href="/JogoCobrinha/Cobrinha.html">
+             <img src="../../static/MenuJogos/images/planeta laranja.png" width="70px" alt="">
+            </a>
+            <p>Cobrinha</p>   
+        
+        </div>
+
+        <div class="{{ url_for ('Labirinto') }}">
+            <a href="">
+            <img src="../../static/MenuJogos/images/planeta verde.png" width="70px" alt="">
+            </a>
+            <p>Labirinto</p>
+        </div>
+
+    </div>
+
+    </body>
+    <footer>
+        
+    </footer>
+    <script src="{{ url_for('static',filename='MenuJogos/js/menuJogos.js') }}"></script>
+</html>

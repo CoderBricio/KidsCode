@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='JogoQuiz/css/style-quiz.css') }}"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet"> 
+    <link rel="icon" href="../../static/JogoQuiz/images/icone-quiz2.png"/>
+    <link rel="shortcut icon" href="{{ url_for('static',filename='favicon.ico') }}" type="image/x-icon">
+    <title>Quiz</title>
+</head>
+<header>
+    <div>
+        <a href="{{ url_for ('home1') }}">
+        <img class="logo-principal" src="../../static/JogoQuiz/images/logo-principal.png" width="105" height="62" />
+        </a>
+
+    <ul class="lista-quiz">
+        <li class="items-lista-quiz">
+            <a class="texto-quiz" href="">Como funciona?</a>
+        </li>
+
+        <li class="items-lista-quiz">
+            <a class="texto-quiz" href="">Jogar</a>
+        </li>
+
+        <li class="items-lista-quiz">
+            <a class="texto-quiz" href="">Objetivo</a>
+        </li>
+    </ul>
+
+</header>
+
+<body class="body-pagina-quiz">
+    <img class="estrelas-quiz" src="../../static/JogoQuiz/images/estrelas-quiz.png" />
+    <img class="fogo1-quiz" src="../../static/JogoQuiz/images/fogo.png" />
+    <img class="planeta-laranja-quiz" src="../../static/JogoQuiz/images/planetalaranja-quiz.png" />
+    <!--  <img class="teste" src="./images/teste 2.png" /> -->
+    <div class="balao1-quiz">
+        <p class="texto-balao1-quiz"> Chegamos ao planeta QUIZ, embarque nesse planeta para começar a jogar esse jogo
+            incrível.
+            <br> <br>O que você vai precisar para jogar:
+        </p>
+        <img class="teclado-quiz" src="../../static/JogoQuiz/images/teclado.png" />
+    </div>
+    <img class="foguete-quiz" src="../../static/JogoQuiz/images/foguete.png" />
+    <img class="planeta-verde-quiz" src="../../static/JogoQuiz/images/planeta-verde-quiz.png" />
+    <div class="balao2-quiz">
+        <p class="texto-balao2-quiz">
+            Vamos começar a jogar!
+        </p>
+    </div>
+    <img class="monstro1-quiz" src="../../static/JogoQuiz/images/monstrinho1.png" />
+    <img class="jogo-quiz" src="../../static/JogoQuiz/images/jogo.png" />
+    <!--<div class="balao3">
+        <p class="texto-balao2">Controle a cobrinha para ela conseguir se alimentar e ficar cada vez maior.</p>
+    </div>-->
+    <img class="fogo2-quiz" src="../../static/JogoQuiz/images/fogo.png" />
+    <img class="monstro2-quiz" src="../../static/JogoQuiz/images/monstrinho2.png" />
+    <div>
+        <img class="montanha1" src="../../static/JogoQuiz/images/torre-de-pedra.png" />
+        <img class="montanha3" src="../../static/JogoQuiz/images/torre-de-pedra3.png" />
+        <img class="montanha2" src="../../static/JogoQuiz/images/torre-de-pedra2.png" />
+        <img class="planta1-quiz" src="../../static/JogoQuiz/images/planta1-quiz.png" />
+        <img class="pedra-montanha2" src="../../static/JogoQuiz/images/pedra-quiz.png" />
+        <img class="fogo3-quiz" src="../../static/JogoQuiz/images/fogo.png" />
+        <div class="balao3-quiz">
+            <h1 class="texto-balao3-quiz"> Para ganhar pontos você precisar marcar a resposta correta de acordo com a
+                pergunta.</h1> <br>
+        </div>
+
+        <img class="monstro3-quiz" src="../../static/JogoQuiz/images/monstrinho3.png" />
+        <img class="montanha4" src="../../static/JogoQuiz/images/torre-de-pedra2.png" />
+        <div class="balao4-quiz">
+            <h1 class="texto-balao4-quiz">Objetivo do Jogo:</h1> <br>
+        </div>
+
+    </div>
+    <img class="bolas-video" src="../../static/JogoQuiz/images/bolas-video.png" />
+    <div>
+        <iframe class="video-quiz" width="670" height="450" src="https://www.youtube.com/embed/Hgcjl7RQSK4"
+            title="Mundo Bita & Emicida -  O Amor é Tudo de Bom" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+
+    <img class="planta2-quiz" src="../../static/JogoQuiz/images/planta2-quiz.png" />
+    <img class="monstro4-quiz" src="../../static/JogoQuiz/images/monstro4.png" />
+    <div>
+        <div class="balao4">
+            <h4 class="texto-balao4">Espero que você se divirta e aprenda bastante jogando o jogo do QUIZ.</h4>
+
+        </div>
+        <img class="planta3-quiz" src="../../static/JogoQuiz/images/planta3-quiz.png" />
+
+        <div class="FooterHomePage">
+            <div class="Texto">
+                <a href="#" class="PoliticaHomePage">Politíca de privicadade</a>
+                <a href="#" class="AvisoHomePage"> Aviso sobre cookies </a>
+                <a href="#" class="ParceirosHomePage"> Parceiros </a>
+                <a href="#" class="DoaçãoHomePage"> Faça uma doação</a>
+            </div>
+            <div class="iconeshomepage">
+                <a href="https://www.instagram.com/kid.code5544/"><img src="../../static/JogoQuiz/images/instagram.png"
+                        class="InstagramHomePage"></a>
+                <a href="#"><img src="../../static/JogoQuiz/images/whatsapp.png" class="WhatsappHomepage"></a>
+                <a href="#"><img src="../../static/JogoQuiz/images/gmail.png" class="GmailHomePage"></a>
+            </div>
+        </div>
+
+</body>
+
+
+</html>

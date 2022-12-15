@@ -1,0 +1,9 @@
+{% if current_user[0] %}
+<h1 class="nome_perfil">{{current_user[1][0]}}</h1>
+                    <form class="form_perfil">
+                        <input type="text" class="input_perfil">
+                    </form>
+                </div>
+                <h2 class="email_perfil">{{current_user[1][1]}}</h2>
+                
+                <h2 class="senha_perfil">{{current_user[1][2]}}</h2>
