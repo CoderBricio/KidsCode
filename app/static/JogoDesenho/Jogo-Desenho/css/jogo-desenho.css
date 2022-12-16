@@ -1,0 +1,292 @@
+body{
+    background: rgb(88,86,86);
+    background: linear-gradient(180deg, rgba(88,86,86,1) 0%, rgba(185,185,185,1) 54%, rgba(255,253,253,1) 100%);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+canvas {
+  border: none;
+	background: #fff;
+	display: block;
+	margin: 50px auto 10px;
+	border-radius: 5px;
+	box-shadow: 0 4px 0 0 #222;
+	cursor:  crosshair;
+    
+}
+
+.tela{
+  margin-left: -30%;
+}
+
+/* botoes de cor unica */
+.myDIV{
+	padding: 10px 0 20px;
+	text-align: center;
+  flex-wrap: wrap;
+  margin-left: -13%;
+}
+
+.btn {
+    
+    height: 54px;
+    width: 54px;
+    border-radius: 60px;
+    cursor: pointer;
+    border: 0;
+    box-shadow: 0 3px 0 0 #222;
+
+  }
+
+.purple{
+    background-color: #AC52CC;
+}
+
+.red{
+    background-color: red;
+}
+
+.black{
+    background-color: black;
+}
+
+
+/* Mudar botão ao deixar clicado */
+.active {
+border: 7px solid #fff;
+width: 40px;
+height: 40px;
+}
+
+/* Botão de Nova Cor */
+
+.NovaCor-pushable {
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  transition: filter 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 45%;
+  margin-top: 1%;
+  margin-left: 35%;
+  
+}
+
+.NovaCor-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsl(0deg 0% 0% / 0.25);
+  will-change: transform;
+  transform: translateY(2px);
+  transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+
+.NovaCor-edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(
+    to left,
+    hsl(340deg 100% 16%) 0%,
+    hsl(340deg 100% 32%) 8%,
+    hsl(340deg 100% 32%) 92%,
+    hsl(340deg 100% 16%) 100%
+  );
+}
+
+.NovaCor-text {
+  display: block;
+  position: relative;
+  padding: 12px 27px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  color: white;
+  background-image: linear-gradient(144deg, #ff8554 0, #ff7451 16.67%, #ff604c 33.33%, #f94646 50%, #ed2441 66.67%, #e2003f 83.33%, #da0041 100%);
+  will-change: transform;
+  transform: translateY(-4px);
+  transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+@media (min-width: 768px) {
+  .NovaCor-text {
+    font-size: 1.25rem;
+  }
+}
+
+.NovaCor-pushable:hover {
+  filter: brightness(110%);
+  -webkit-filter: brightness(110%);
+}
+
+.NovaCor-pushable:hover .NovaCor-text {
+  transform: translateY(-6px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.NovaCor-pushable:active .NovaCor-text{
+  transform: translateY(-2px);
+  transition: transform 34ms;
+}
+
+.NovaCor-pushable:hover .NovaCor-shadow {
+  transform: translateY(4px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.NovaCor-pushable:active .NovaCor-shadow {
+  transform: translateY(1px);
+  transition: transform 34ms;
+}
+
+
+.cores{
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.botao{
+  height: 130px;
+}
+
+#imagens{
+
+}
+
+.container{
+  display: flex;  
+  justify-content: center;
+  padding-left: 15%;
+}
+
+.img{
+  width: 210px;
+  padding: 0px 22px 0;
+  overflow: auto;
+  height: 400px;
+  margin-top: 50px;
+  margin-left: -15%;
+}
+
+.img button{
+  margin-bottom:10px ;
+}
+
+.maisDesenho{
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+}
+
+
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.maisDesenho i:hover{
+  transform: rotate(80deg);
+  -webkit-transform: rotate(80deg);
+}
+
+.save{
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  background-image: linear-gradient(144deg, #ff8554 0, #ff7451 16.67%, #ff604c 33.33%, #f94646 50%, #ed2441 66.67%, #e2003f 83.33%, #da0041 100%);
+  margin-right: 20%;
+}
+
+.maquina{
+  position: absolute;
+  height: 30%;
+  margin-left: 85%;
+  margin-top: 20%;
+}
+
+.robo1{
+  position: absolute;
+  height: 10%;
+  margin-left: 90%;
+  margin-top: 16%;
+}
+
+.gatorobo{
+  position: absolute;
+  height: 10%;
+  margin-left: 70%;
+  margin-top: 35%;
+}
+
+.maorobo2{
+  position: absolute;
+  height: 20%;
+  margin-left: 8%;
+  margin-top: 16%;
+}
+
+.maorobo{
+  position: absolute;
+  height: 27%;
+  margin-right: 100%;
+  margin-top: 15%;
+}
+
+.robo2{
+  position: absolute;
+  height: 10%;
+  margin-left: 93%;
+  margin-top: 43%;
+}
+
+.robo3{
+  position: absolute;
+  height: 10%;
+  margin-left: 15%;
+  margin-top: 43%;
+}
+
+.voltar{
+  position: absolute;
+  height: 5%;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+

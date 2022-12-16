@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body{
+    background-color:#FF965a;
+    min-height: 10vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+canvas{
+    position: relative;
+    margin-top: 4%;
+}
+
+#scoreBox{
+    position: absolute;
+    top: 9px;
+    right: 15%;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+}
+
+#hiscoreBox{
+    position: absolute;
+    top: 59px;
+    right: 10%;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+}
+
+.deslizamento{
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 76%;
+    height: 50%;
+}
+
+.deslizamento2{
+    position: absolute;
+    margin-top: 0;
+    margin-right: 77%;
+    height: 50%;
+}
+
+
+.minhocas{
+    position: absolute;
+    height: 9%;
+    margin-left: 96%;
+    margin-top: -5%;
+}
+
+.minhoca2{
+    position: absolute;
+    height: 9%;
+    margin-right: 98%;
+    margin-top: -26%;
+}
+
+.minhoca{
+    position: absolute;
+    margin-right: 90%;
+    height: 10%;
+    margin-top: 49%;
+}
+
+
+.plant1{
+    position: absolute;
+    margin-right: 90%;
+    height: 5%;
+    margin-top: 30%;
+}
+
+.plant2{
+    position: absolute;
+    margin-left: 55%;
+    height: 5%;
+    margin-top: 45%;
+}
+
+.plant3{
+    position: absolute;
+    margin-right: 45%;
+    height: 5%;
+    margin-top: -10%;
+}
+
+.poeira{
+    position: absolute;
+    margin-right: 45%;
+    height: 5%;
+    margin-top: 40%;
+}
+
+.poeira2{
+    position: absolute;
+    margin-right: 45%;
+    height: 5%;
+    margin-top: -35%;
+}
+
+.poeira3{
+    position: absolute;
+    margin-left: 45%;
+    height: 5%;
+    margin-top: -10%;
+}
+
+.cacto{
+    position: absolute;
+    margin-left: 41%;
+    height: 5%;
+    margin-top: 41%;
+}
+
+.cacto2{
+    position: absolute;
+    margin-left: 80%;
+    height: 5%;
+    margin-top: 47%;
+}
+
+.cacto3{
+    position: absolute;
+    margin-right: 70%;
+    height: 5%;
+    margin-top: 22%;
+}
+
+.voltar{
+    position: absolute;
+    margin-right: 95%;
+    height: 5%;
+    margin-top: -40%;
+}
