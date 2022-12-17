@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static',filename='JogoCobrinha/Jogo-Cobrinha/css/jogo-cobrinha.css') }}">
+        <link rel="shortcut icon" href="{{ url_for('static',filename='JogoCobrinha/favicon.ico') }}" type="image/x-icon">
+        <title>Jogo Cobrinha</title>
+    </head>
+    <body>
+        <a href="{{ url_for ('Cobrinha') }}" class="bola_xcobra">
+            <div class="xx1"></div>
+            <div class="xx2"></div>
+        </a>
+
+
+        <canvas id = 'stage' width="600" height="600"></canvas>
+
+        <div id="scoreBox">Score: 0</div>
+        <div id="hiscoreBox">HiScore: 0</div>
+
+        
+
+        <img class="deslizamento" src="../../../static/JogoCobrinha/Jogo-Cobrinha/images/deslizamento.png">
+
+        <img class="minhocas" src="../../../static/JogoCobrinha/Jogo-Cobrinha/images/minhoca.png">
+
+        <img class="minhoca2" src="../../../static/JogoCobrinha/Jogo-Cobrinha/images/minhoca.png">
+
+        <img class="minhoca" src="../../../static/JogoCobrinha/Jogo-Cobrinha/images/minhoca.png">
+
+        <img class="plant1" src="../../../static/JogoCobrinha/Jogo-Cobrinha/images/plant.png">
+
+        <img class="plant2" src="../../../static/JogoCobrinha/Jogo-Cobrinha/images/plant.png">
+
+        <img class="plant3" src="../../../static/JogoCobrinha/Jogo-Cobrinha/images/plant.png">
+
+        <img class="deslizamento2" src="../../../static/JogoCobrinha/Jogo-Cobrinha/images/deslizamento2.png">
+
+        <img class="poeira" src="../../../static/JogoCobrinha/Jogo-Cobrinha/images/poeira.png">
+
+        <img class="poeira2" src="../../../static/JogoCobrinha/Jogo-Cobrinha/images/poeira.png">
+
+        <img class="poeira3" src="../../../static/JogoCobrinha/Jogo-Cobrinha/images/poeira.png">
+
+        <img class="cacto" src="../../../static/JogoCobrinha/Jogo-Cobrinha/images/cacto.png">
+
+        <img class="cacto2" src="../../../static/JogoCobrinha/Jogo-Cobrinha/images/cacto.png">
+
+        <img class="cacto3" src="../../../static/JogoCobrinha/Jogo-Cobrinha/images/cacto.png">
+
+        
+    </body>
+    <script src="{{ url_for('static',filename='JogoCobrinha/Jogo-Cobrinha/js/jogo-cobrinha.js') }}"></script>
+</html>

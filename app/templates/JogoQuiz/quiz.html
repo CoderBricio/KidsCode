@@ -15,21 +15,21 @@
 </head>
 <header>
     <div>
-        <a href="{{ url_for ('home1') }}">
+        <a href="{{ url_for ('menuJogos') }}">
         <img class="logo-principal" src="../../static/JogoQuiz/images/logo-principal.png" width="105" height="62" />
         </a>
-
+    </div>
     <ul class="lista-quiz">
         <li class="items-lista-quiz">
-            <a class="texto-quiz" href="">Como funciona?</a>
+            <a class="texto-quiz" href="#comofunciona">Como funciona?</a>
         </li>
 
         <li class="items-lista-quiz">
-            <a class="texto-quiz" href="">Jogar</a>
+            <a class="texto-quiz" href="#comojogar">Jogar</a>
         </li>
 
         <li class="items-lista-quiz">
-            <a class="texto-quiz" href="">Objetivo</a>
+            <a class="texto-quiz" href="#objetivodojogo">Objetivo</a>
         </li>
     </ul>
 
@@ -40,7 +40,7 @@
     <img class="fogo1-quiz" src="../../static/JogoQuiz/images/fogo.png" />
     <img class="planeta-laranja-quiz" src="../../static/JogoQuiz/images/planetalaranja-quiz.png" />
     <!--  <img class="teste" src="./images/teste 2.png" /> -->
-    <div class="balao1-quiz">
+    <div id="comofunciona" class="balao1-quiz">
         <p class="texto-balao1-quiz"> Chegamos ao planeta QUIZ, embarque nesse planeta para começar a jogar esse jogo
             incrível.
             <br> <br>O que você vai precisar para jogar:
@@ -54,8 +54,9 @@
             Vamos começar a jogar!
         </p>
     </div>
-    <img class="monstro1-quiz" src="../../static/JogoQuiz/images/monstrinho1.png" />
-    <img class="jogo-quiz" src="../../static/JogoQuiz/images/jogo.png" />
+    <img id="comojogar" class="monstro1-quiz" src="../../static/JogoQuiz/images/monstrinho1.png"/>
+    <!-- IMAGEM DO JOGO -->
+    <a href="{{ url_for ('jogo_quiz') }}"><img class="jogo-quiz" src="../../static/JogoQuiz/images/IniciarQuiz.png"/></a>
     <!--<div class="balao3">
         <p class="texto-balao2">Controle a cobrinha para ela conseguir se alimentar e ficar cada vez maior.</p>
     </div>-->
@@ -76,7 +77,7 @@
         <img class="monstro3-quiz" src="../../static/JogoQuiz/images/monstrinho3.png" />
         <img class="montanha4" src="../../static/JogoQuiz/images/torre-de-pedra2.png" />
         <div class="balao4-quiz">
-            <h1 class="texto-balao4-quiz">Objetivo do Jogo:</h1> <br>
+            <h1 id="objetivodojogo" class="texto-balao4-quiz">Objetivo do Jogo:</h1> <br>
         </div>
 
     </div>

@@ -73,7 +73,7 @@ h2{
     content: '';
     position: absolute;
     bottom: -200px;
-    left: 51%;
+    left: 52%;
     transform: translateX(-50%);
     width: 5px;
     height: 200px;
@@ -84,7 +84,7 @@ h2{
     content: '';
     position: absolute;
     bottom: -200px;
-    left: 51%;
+    left: 52%;
     transform: translateX(-50%);
     width: 5px;
     height: 200px;
@@ -96,7 +96,7 @@ h2{
     content: '';
     position: absolute;
     bottom: -200px;
-    left: 48.5%;
+    left: 49.5%;
     transform: translateX(-50%);
     width: 5px;
     height: 200px;
@@ -107,7 +107,7 @@ h2{
     content: '';
     position: absolute;
     bottom: -200px;
-    left: 47%;
+    left: 50%;
     transform: translateX(-50%);
     width: 5px;
     height: 200px;
@@ -120,11 +120,14 @@ h2{
     color: aliceblue;
     padding-top: 21%;
     left: 4%;
-   color: antiquewhite linear-gradient(1%);
+    color: antiquewhite linear-gradient(1%);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.planeta_quiz p{
-    padding-left: 25%;
+.planeta_quiz img {
+    width: 150px;
 }
 
 .planeta_cobrinha{
@@ -132,10 +135,13 @@ h2{
     color: aliceblue;
     padding-top: 16%;
     left: 25%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.planeta_cobrinha p{
-    margin-left: 6%;
+.planeta_cobrinha img {
+    width: 120px;
 }
 
 .planeta_labirinto{
@@ -143,10 +149,13 @@ h2{
     color: aliceblue;
     padding-top: 16%;
     left: 68%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.planeta_labirinto p{
-    margin-left: 10%;
+.planeta_labirinto img {
+    width: 120px;
 }
 
 .planeta_desenho{
@@ -154,11 +163,15 @@ h2{
     color: aliceblue;
     padding-top: 21%;
     left: 89%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.planeta_desenho p{
-    margin-left: 15%;
+.planeta_desenho img {
+    width: 120px;
 }
+
 
 /*Animação dos planetas*/
 
@@ -183,7 +196,7 @@ h2{
 }
 
 .NavePrincial{
-    margin-left: 5%;
+    margin-left: 2%;
 }
 
 

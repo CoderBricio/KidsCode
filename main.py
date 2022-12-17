@@ -78,22 +78,47 @@ def Perfil():
 def menuJogos():
     return render_template('MenuJogos/menuJogos.html')
 
+    # PARTE DOS JOGOS 
+
+# JOGO QUIZ
+
 @app.route("/quiz", methods=["GET"])
 def quiz():
     return render_template('JogoQuiz/quiz.html')
 
-@app.route("/Labirinto", methods=["GET"])
-def Labirinto():
-    return render_template('JogoLabirinto/Labirinto.html')
+@app.route("/jogo_quiz", methods=["GET"])
+def jogo_quiz():
+    return render_template('JogoQuiz/Jogo-Quiz/jogo-quiz.html')
+
+# JOGO MEMORIA
+
+@app.route("/memoria", methods=["GET"])
+def memoria():
+    return render_template('JogoMemoria/memoria.html')
+
+@app.route("/jogo_memoria", methods=["GET"])
+def jogo_memoria():
+    return render_template('JogoMemoria/Jogo-Memoria/jogo-memoria.html')
+
+# JOGO DESENHO 
 
 @app.route("/Desenho", methods=["GET"])
 def Desenho():
     return render_template('JogoDesenho/Desenho.html')
 
+@app.route("/jogo_desenho", methods=["GET"])
+def jogo_desenho():
+    return render_template('JogoDesenho/Jogo-Desenho/jogo-desenho.html')
+
+# JOGO COBRINHA 
+
 @app.route("/Cobrinha", methods=["GET"])
 def Cobrinha():
     return render_template('JogoCobrinha/Cobrinha.html')
 
+@app.route("/jogo_cobrinha", methods=["GET"])
+def jogo_cobrinha():
+    return render_template('JogoCobrinha/Jogo-Cobrinha/jogo-cobrinha.html')
 
 # endpoint para deslogar o usuário (ao acessar ele é deslogado (logout_user()) e redirecionado para a rota de login)
 @app.route("/Logout")

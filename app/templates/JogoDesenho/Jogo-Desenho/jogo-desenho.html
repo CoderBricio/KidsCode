@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static',filename='JogoDesenho/Jogo-Desenho/css/jogo-desenho.css') }}">
+        <link rel="shortcut icon" href="{{ url_for('static',filename='JogoDesenho/favicon.ico') }}" type="image/x-icon">
+        <title>Jogo Desenho</title>
+        
+    </head>
+    <body>
+        <a href="{{ url_for ('Desenho') }}" class="bola_xcobra">
+            <div class="xx1"></div>
+            <div class="xx2"></div>
+        </a>
+
+        <img class="maquina" src="../../../static/JogoDesenho/Jogo-Desenho/images/maquina.png">
+        <img class="robo1" src="../../../static/JogoDesenho/Jogo-Desenho/images/robo1.png">
+        <img class="gatorobo" src="../../../static/JogoDesenho/Jogo-Desenho/images/gatorobo.png">
+        <img class="maorobo2" src="../../../static/JogoDesenho/Jogo-Desenho/images/maorobo2.png">
+        <img class="maorobo" src="../../../static/JogoDesenho/Jogo-Desenho/images/maorobo.png">
+        <img class="robo2" src="../../../static/JogoDesenho/Jogo-Desenho/images/robo2.png">
+        <img class="robo3" src="../../../static/JogoDesenho/Jogo-Desenho/images/robo3.png">
+
+        <div class="container">
+            <section class="lousa">
+                <canvas class="tela" id="myCanvas" width="600" height="400" style="border:2px solid #d3d3d3;">
+                    Your browser does not support the HTML canvas tag.</canvas>
+            </section>
+            
+            
+            <asside class="img">
+                <button class="maisDesenho" onclick="abrirImagens()">Mais Desenhos <i class="arrow down"></i></button>
+                <div id="imagens">
+                    <input type="image" class="botao kidcode" src="../../../static/JogoDesenho/Jogo-Desenho/images/kidscode.png" onclick="desenho1()">
+
+                    <input type="image" class="botao carro" src="../../../static/JogoDesenho/Jogo-Desenho/images/carro.png" onclick="desenho2()">
+
+                    <input type="image" class="botao casa" src="../../../static/JogoDesenho/Jogo-Desenho/images/casa.png" onclick="desenho3()">
+
+                    <input type="image" class="botao kidcode" src="../../../static/JogoDesenho/Jogo-Desenho/images/kidscode.png" onclick="desenho1()">
+
+                    <input type="image" class="botao carro" src="../../../static/JogoDesenho/Jogo-Desenho/images/carro.png" onclick="desenho2()">
+
+                    <input type="image" class="botao casa" src="../../../static/JogoDesenho/Jogo-Desenho/images/casa.png" onclick="desenho3()">
+                    
+                </div> 
+            </asside>
+        </div>
+        <div class="myDIV" id="myDIV">
+            <button class="btn black active" onclick="black()"></button>
+            <button class="btn white" onclick="white()"></button>
+            <button class="btn purple" onclick="purple()"></button>
+            <button class="btn red" onclick="red()"></button>
+
+            <input type="color" id="cores" class="cores" value="#f1E03D">
+        </div>
+        
+        <div>
+            <button onclick="clearAll()" class="NovaCor-pushable" role="button">
+                <span class="NovaCor-shadow"></span>
+                <span class="NovaCor-edge"></span>
+                <span class="NovaCor-text">Apagar
+                </span>
+            </button>
+            <button class="save">Salvar Desenho</button>
+            <!-- <input type="range" id="maa" min="8" max="15"> -->
+        </div>
+    </body>
+    <script src="{{ url_for('static',filename='JogoDesenho/Jogo-Desenho/js/jogo-desenho.js') }}"></script>
+</html>
+
+

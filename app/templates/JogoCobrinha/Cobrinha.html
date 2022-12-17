@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static',filename='JogoCobrinha/css/style-cobrinha.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static',filename='JogoCobrinha/css/style-cobrinha.css') }}" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
@@ -15,22 +15,23 @@
 </head>
 <header>
     <div>
-        <a href="{{ url_for ('home1') }}">
-        <img class="logo-principal" src="../../static/JogoCobrinha/images/logo-principal.png" width="105" height="62" />
+        <a href="{{ url_for ('menuJogos') }}">
+            <img class="logo-principal" src="../../static/JogoCobrinha/images/logo-principal.png" width="105"
+                height="62" />
         </a>
     </div>
 
     <ul class="lista-cobrinha">
         <li class="items-lista-cobrinha">
-            <a class="texto" href="">Como funciona?</a>
+            <a class="texto" href="#comofunciona">Como funciona?</a>
         </li>
 
         <li class="items-lista-cobrinha">
-            <a class="texto" href="">Jogar</a>
+            <a class="texto" href="#comojogar">Jogar</a>
         </li>
 
         <li class="items-lista-cobrinha">
-            <a class="texto" href="">Objetivo</a>
+            <a class="texto" href="#objetivodojogo">Objetivo</a>
         </li>
     </ul>
 
@@ -39,9 +40,8 @@
 <body class="bodypaginacobrinha">
     <img class="planeta-rosa" src="../../static/JogoCobrinha/images/planeta-rosa.png" />
     <!--  <img class="teste" src="./images/teste 2.png" /> -->
-    <div class="balao1">
-        <p class="texto-balao1"> Chegamos ao planeta da cobrinha, embarque nesse planeta para começar a jogar esse jogo
-            incrível.
+    <div id="comofunciona" class="balao1">
+        <p class="texto-balao1"> Chegamos ao planeta da cobrinha, embarque nesse planeta para começar a jogar esse jogo incrível.
             <br> <br>O que você vai precisar para jogar:
         </p>
         <img class="teclado" src="../../static/JogoCobrinha/images/teclado.png" />
@@ -54,8 +54,9 @@
             Vamos começar a jogar!
         </p>
     </div>
-    <img class="minhoca" src="../../static/JogoCobrinha/images/minhoca1.png" />
-    <img class="jogo-cobrinha" src="../../static/JogoCobrinha/images/jogo.png" />
+    <img id="comojogar" class="minhoca" src="../../static/JogoCobrinha/images/minhoca1.png" />
+    <!-- IMAGEM DO JOGO -->
+    <a href="{{ url_for ('jogo_cobrinha') }}"><img class="jogo-cobrinha" src="../../static/JogoCobrinha/images/IniciarCobrinha.png"/></a>
     <!--<div class="balao3">
         <p class="texto-balao2">Controle a cobrinha para ela conseguir se alimentar e ficar cada vez maior.</p>
     </div>-->
@@ -70,7 +71,7 @@
         <img class="pedra2-montanha2" src="../../static/JogoCobrinha/images/pedra1.png" />
         <div class="balao3">
             <h1 class="texto-balao3"> Objetivo do jogo</h1> <br>
-            <h3> Vídeo explicativo:</h3>
+            <h3 id="objetivodojogo" > Vídeo explicativo:</h3>
         </div>
         <img class="grama1" src="../../static/JogoCobrinha/images/grama.png" />
 
@@ -108,8 +109,8 @@
                 <a href="#" class="DoaçãoHomePage"> Faça uma doação</a>
             </div>
             <div class="iconeshomepage">
-                <a href="https://www.instagram.com/kid.code5544/"><img src="../../static/JogoCobrinha/images/instagram.png"
-                        class="InstagramHomePage"></a>
+                <a href="https://www.instagram.com/kid.code5544/"><img
+                        src="../../static/JogoCobrinha/images/instagram.png" class="InstagramHomePage"></a>
                 <a href="#"><img src="../../static/JogoCobrinha/images/whatsapp.png" class="WhatsappHomepage"></a>
                 <a href="#"><img src="../../static/JogoCobrinha/images/gmail.png" class="GmailHomePage"></a>
             </div>
@@ -117,6 +118,4 @@
         </div>
 
 </body>
-
-
 </html>

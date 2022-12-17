@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../static/css/memoria.css">
+  <link rel="stylesheet" href="{{ url_for('static',filename='JogoMemoria/Jogo-Memoria/css/jogo-memoria.css') }}">
+  <link rel="shortcut icon" href="{{ url_for('static',filename='JogoMemoria/favicon.ico') }}" type="image/x-icon">
+  <title>Jogo Memória</title>
+</head>
+<body>
+  <a href="{{ url_for ('memoria') }}" class="bola_xcobra">
+    <div class="xx1"></div>
+    <div class="xx2"></div>
+  </a>
+
+  <img class="arvore1" src="../../../static/JogoMemoria/Jogo-Memoria/images/arvore.png">
+
+  <img class="poço" src="../../../static/JogoMemoria/Jogo-Memoria/images/poço.png">
+
+  <img class="vaca1" src="../../../static/JogoMemoria/Jogo-Memoria/images/vaca1.png">
+
+  <img class="arvore" src="../../../static/JogoMemoria/Jogo-Memoria/images/arvore.png">
+
+  <img class="gatocornio" src="../../../static/JogoMemoria/Jogo-Memoria/images/gatocornio.png">
+
+  <img class="porco1" src="../../../static/JogoMemoria/Jogo-Memoria/images/porco1.png">
+
+  <img class="galinha" src="../../../static/JogoMemoria/Jogo-Memoria/images/galinha.png">
+
+
+  <main>
+    <header>
+      <span class="player" maxlength="10"></span>
+      <span>Tempo: <span class="timer" maxlength="10">00</span></span>
+    </header>
+  
+    <div class="grid" maxlength="10"></div>
+  </main>
+
+</body>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script defer src="{{ url_for('static',filename='JogoMemoria/Jogo-Memoria/js/jogo-memoria.js') }}"></script>
+</html>
