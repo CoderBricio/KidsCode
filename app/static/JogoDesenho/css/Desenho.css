@@ -124,10 +124,11 @@ header {
     line-height: 1.6em;
     border-radius: 20px;
     width: 400px;
-    margin-top: -4%;
+    margin-top: -8%;
+    margin-left: 30%;
     height: 30px;
     padding: 30px;
-    position: relative;
+    position: absolute;
     background-color: #AFCFFF;
     box-shadow: 5px 5px 8px 5px #000 ;
 }
