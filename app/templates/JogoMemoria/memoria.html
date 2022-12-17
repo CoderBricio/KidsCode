@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static',filename='JogoLabirinto/css/labirintostyle.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='JogoMemoria/css/memoria.css') }}">
     <link rel="shortcut icon" href="{{ url_for('static',filename='favicon.ico') }}" type="image/x-icon">
-    <title>Labirinto</title>
+    <title>Memoria</title>
 </head>
 <header class="header_labi">
     <!--<img src="../../static/JogoLabirinto/images/logo2.png" class="LogoLabirinto" width="105" height="62">
@@ -14,13 +14,13 @@
         <a href="#" class="jogar">Jogar</a>
         <a href="#" class="Objetivo">Objetivo</a>--> 
         <div>
-            <a href="{{ url_for('static',filename='../HomeDia.html') }}">
-            <img class="logo-principal" src="../../static/JogoLabirinto/images/logo2.png" width="105" height="62" />
+            <a href="{{ url_for ('menuJogos') }}">
+            <img class="logo-principal" src="../../static/JogoMemoria/images/logo2.png" width="105" height="62" />
             </a>
         </div>
         <ul class="lista_labi">
             <li class="items_lista_labi">
-                <a class="texto_labi" href="">Como funciona?</a>
+                <a class="texto_labi" href="#comofunciona">Como funciona?</a>
             </li>
     
             <li class="items_lista_labi">
@@ -34,58 +34,57 @@
         
 </header>
 <body class="bodypaginalabi">  
-    <img class="planeta_cinza_labi" src="../../static/JogoLabirinto/images/venus 3.png" />
-    <div class="balao1_labi">
-        <p class="texto_balao1_labi"> Chegamos ao planeta do labirinto, embarque nesse planeta para começar a jogar esse jogo
-            incrível.
+    <img class="planeta_cinza_labi" src="../../static/JogoMemoria/images/venus 3.png" />
+    <div id="comofunciona" class="balao1_labi">
+        <p class="texto_balao1_labi"> Chegamos ao planeta do Memoria, embarque nesse planeta para começar a jogar esse jogo incrível.
             <br> <br>O que você vai precisar para jogar:
         </p>
-        <img class="teclado_labi" src="../../static/JogoLabirinto/images/teclado.png" />
+        <img class="teclado_labi" src="../../static/JogoMemoria/images/teclado.png" />
     </div>
-    <img class="nave_labi" src="../../static/JogoLabirinto/images/nave.png" />
-    <img class="planeta_rosa_labi" src="../../static/JogoLabirinto/images/image 2246.png" />
-    <img class="planeta_ama_labi" src="../../static/JogoLabirinto/images/image 2247.png" />
+    <img class="nave_labi" src="../../static/JogoMemoria/images/nave.png" />
+    <img class="planeta_rosa_labi" src="../../static/JogoMemoria/images/image 2246.png" />
+    <img class="planeta_ama_labi" src="../../static/JogoMemoria/images/image 2247.png" />
     <div class="balao2_labi">
         <p class="texto_balao2_labi">
             Vamos começar a jogar!
         </p>
     </div>
-    <img class="vaca" src="../../static/JogoLabirinto/images/vaca.png" />
-    <h1 class="breve_labi"><strong class="strong_labi">EM BREVE</strong></h1>
-    <img class="jogo_labi" src="../../static/JogoLabirinto/images/jogo.png" id="jogo_labi"/>
+    <img class="vaca" src="../../static/JogoMemoria/images/vaca.png" />
+    <!-- IMAGEM DO JOGO -->
+    <a href="{{ url_for ('jogo_memoria') }}"><img class="jogo_labi" src="../../static/JogoMemoria/images/IniciarMemoria.png" id="jogo_labi"/></a>
     <div class="macaco_balao_galho">
         <div class="balao3_labi">
-            <p class="texto_balao3_labi">Para ganhar pontos, você precisa ir nas rotas corretas e chegar no final do labirinto.</p>
+            <p class="texto_balao3_labi">Para ganhar pontos, você precisa acertar todas as as imagens iguais com chances limitadas!.</p>
         </div>
-        <img class="macaco" src="../../static/JogoLabirinto/images/macaco.png" />
-        <img class="galho" src="../../static/JogoLabirinto/images/galho-macaco.png" />
+        <img class="macaco" src="../../static/JogoMemoria/images/macaco.png" />
+        <img class="galho" src="../../static/JogoMemoria/images/galho-macaco.png" />
     </div>
     <div class="arvo_poco_balao_porco">
-        <img src="../../static/JogoLabirinto/images/arvore.png" class="arvore_labi">
-        <img src="../../static/JogoLabirinto/images/planta-sem-terra.png" class="planta_sem_terra01">
-        <img src="../../static/JogoLabirinto/images/poco-agua.png" class="poco_labi">
-        <img src="../../static/JogoLabirinto/images/porco.png" class="porco" >
+        <img src="../../static/JogoMemoria/images/arvore.png" class="arvore_labi">
+        <img src="../../static/JogoMemoria/images/planta-sem-terra.png" class="planta_sem_terra01">
+        <img src="../../static/JogoMemoria/images/poco-agua.png" class="poco_labi">
+        <img src="../../static/JogoMemoria/images/porco.png" class="porco" >
         <div class="balao4_labi" id="objetivo_labirinto">
             <h1 class="texto_balao4_labi"> Objetivo do jogo</h1> <br>
             <h3> Vídeo explicativo:</h3>
         </div>
     </div>
     <div class="img_video" >
-        <img src="../../static/JogoLabirinto/images/planta-terra.png" alt=""class="planta_terra01">
+        <img src="../../static/JogoMemoria/images/planta-terra.png" alt=""class="planta_terra01">
         <iframe class="video" width="670" height="450" src="https://www.youtube.com/embed/Hgcjl7RQSK4"
             title="Mundo Bita & Emicida -  O Amor é Tudo de Bom" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
         </iframe>
-        <img src="../../static/JogoLabirinto/images/planta-sem-terra.png" class="planta_sem_terra02">
-        <img src="../../static/JogoLabirinto/images/planta-terra.png" class="planta_terra02">
+        <img src="../../static/JogoMemoria/images/planta-sem-terra.png" class="planta_sem_terra02">
+        <img src="../../static/JogoMemoria/images/planta-terra.png" class="planta_terra02">
 
     </div>
     <div class="lontra_plante_terra_footer">
         <div class="balao5_labi">
-            <h4 class="texto_balao4_labi"> Espero que você se divirta e aprenda bastante jogando o jogo do labirinto.</h4>
+            <h4 class="texto_balao4_labi"> Espero que você se divirta e aprenda bastante jogando o jogo da Memória.</h4>
         </div>
-        <img src="../../static/JogoLabirinto/images/lontra.png" class="lontra">
+        <img src="../../static/JogoMemoria/images/lontra.png" class="lontra">
         <div class="footer_labi">
             <div class="Texto_labi">
                 <a href="#" class="politica_labi">Politíca de privicadade</a>
@@ -94,10 +93,10 @@
                 <a href="#" class="doacao_labi"> Faça uma doação</a>
             </div>
             <div class="icones_labi">
-                <a href="https://www.instagram.com/kid.code5544/"><img src="../../static/JogoLabirinto/images/instagram.png"
+                <a href="https://www.instagram.com/kid.code5544/"><img src="../../static/JogoMemoria/images/instagram.png"
                         class="instagram_labi"></a>
-                <a href="#"><img src="../../static/JogoLabirinto/images/whats.png" class="what_labi"></a>
-                <a href="#"><img src="../../static/JogoLabirinto/images/gmail.png" class="gmail_labi"></a>
+                <a href="#"><img src="../../static/JogoMemoria/images/whats.png" class="what_labi"></a>
+                <a href="#"><img src="../../static/JogoMemoria/images/gmail.png" class="gmail_labi"></a>
             </div>
             <p></p>
         </div>

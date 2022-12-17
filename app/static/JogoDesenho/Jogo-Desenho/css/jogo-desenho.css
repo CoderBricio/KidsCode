@@ -176,10 +176,6 @@ height: 40px;
   height: 130px;
 }
 
-#imagens{
-
-}
-
 .container{
   display: flex;  
   justify-content: center;
@@ -289,4 +285,40 @@ height: 40px;
   margin-top: 1%;
 }
 
+.bola_xcobra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 90%;
+  top: 3%;
+  cursor: pointer;
+  height: 65px;
+  width: 65px;
+  border-radius: 100%;
+  background: linear-gradient(to right, #0094fb, #00069d );
+  border: 2px solid black;
+}
 
+.bola_xcobra:hover{
+  border-color: aliceblue;
+  background: linear-gradient(to right, #fb0021, #9d001a )
+}
+
+.xx1{
+  width: 50%;
+  height: 3.5px;
+  transform: rotate(45deg);
+  background-color: aliceblue;
+  border-radius: 30%;
+  
+}
+
+.xx2{
+  position: absolute;
+  width: 50%;
+  height: 3.5px;
+  transform: rotate(-45deg);
+  background-color: aliceblue;
+  border-radius: 30%;
+}

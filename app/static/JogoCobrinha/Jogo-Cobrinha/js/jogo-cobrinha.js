@@ -4,15 +4,15 @@ var ctx = stage.getContext("2d");
 document.addEventListener("keydown", keyPush)
 
 var maca = new Image();
-maca.src = '../static/images/maca1.png';
+maca.src = '../../../static/JogoCobrinha/Jogo-Cobrinha/images/maca1.png';
 
 var fundo = new Image();
-fundo.src = '../static/images/terra12.png';
+fundo.src = '../../../static/JogoCobrinha/Jogo-Cobrinha/images/terra12.png';
 
-const glupSound = new Audio("../static/sounds/gulp.mp3");
-const gameOver = new Audio("../static/sounds/gameover.mp3");
-const move = new Audio("../static/sounds/move.mp3");
-const musica = new Audio("../static/sounds/musica.mp3");
+const glupSound = new Audio("../../../static/JogoCobrinha/Jogo-Cobrinha/sounds/gulp.mp3");
+const gameOver = new Audio("../../../static/JogoCobrinha/Jogo-Cobrinha/sounds/gameover.mp3");
+const move = new Audio("../../../static/JogoCobrinha/Jogo-Cobrinha/sounds/move.mp3");
+const musica = new Audio("../../../static/JogoCobrinha/Jogo-Cobrinha/sounds/musica.mp3");
 
 var over = false;
 

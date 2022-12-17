@@ -15,22 +15,22 @@
 </head>
 <header>
     <div>
-        <a href="{{ url_for ('home1') }}">
+        <a href="{{ url_for ('menuJogos') }}">
         <img class="logo-principal" src="../../static/JogoDesenho/images/logo-principal.png" width="105" height="62" />
     </a>
     </div>
 
     <ul class="lista-cobrinha">
         <li class="items-lista-cobrinha">
-            <a class="texto" href="">Como funciona?</a>
+            <a class="texto" href="#comofunciona">Como funciona?</a>
         </li>
 
         <li class="items-lista-cobrinha">
-            <a class="texto" href="">Jogar</a>
+            <a class="texto" href="#comojogar">Jogar</a>
         </li>
 
         <li class="items-lista-cobrinha">
-            <a class="texto" href="">Objetivo</a>
+            <a class="texto" href="#objetivodojogo">Objetivo</a>
         </li>
     </ul>
 
@@ -39,7 +39,7 @@
 <body class="bodypaginacobrinha">
     <img class="pedrinha1" src="../../static/JogoDesenho/images/pedrinhas-espaco.png" />
     <!--  <img class="teste" src="./images/teste 2.png" /> -->
-    <div class="balao1">
+    <div id="comofunciona" class="balao1">
         <p class="texto-balao1"> Chegamos ao planeta da desenho, embarque nesse planeta para começar a jogar esse jogo
             incrível.
             <br> <br>O que você vai precisar para jogar:
@@ -54,8 +54,10 @@
             Vamos começar a jogar!!
         </p>
     </div>
-    <img class="gato" src="../../static/JogoDesenho/images/gato.png" />
-    <img class="tela-branca" src="../../static/JogoDesenho/images/tela-branca.png" />
+    <img id="comojogar" class="gato" src="../../static/JogoDesenho/images/gato.png" />
+    <!-- IMAGEM DO JOGO -->
+    <a href="{{ url_for ('jogo_desenho') }}"><img class="tela-branca" src="../../static/JogoDesenho/images/IniciarDesenho.png"/></a>
+
     <div class="balao3">
         <p class="texto-balao3">Sinta-se livre para soltar a criatividade e fazer um desenho irado!!</p>
     </div>
@@ -70,7 +72,7 @@
         <img class="decor-robo" src=".../../static/JogoDesenho/images/decor-robo.png" />
         <div class="balao4">
             <h1 class="texto-balao4"> Objetivo do jogo</h1> <br>
-            <h3> Vídeo explicativo:</h3>
+            <h3 id="objetivodojogo" > Vídeo explicativo:</h3>
         </div>
         <img class="estrela3" src="../../static/JogoDesenho/images/estrela1.png" />
 

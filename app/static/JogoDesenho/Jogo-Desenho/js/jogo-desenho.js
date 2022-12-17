@@ -8,13 +8,13 @@ let bbb;
 var tamanho = 8;
 
 var fundo = new Image();
-fundo.src = '../static/images/kidscode.png';
+fundo.src = '../../../static/JogoDesenho/Jogo-Desenho/images/kidscode.png';
 
 var carro = new Image();
-carro.src = '../static/images/carro.png';
+carro.src = '../../../static/JogoDesenho/Jogo-Desenho/images/carro.png';
 
 var casa = new Image();
-casa.src = '../static/images/casa.png';
+casa.src = '../../../static/JogoDesenho/Jogo-Desenho/images/casa.png';
 
 //Salvar imagem
 saveImg = document.querySelector(".save")

@@ -1,23 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../static/css/desenho.css">
-        <title>Desenho</title>
+        <link rel="stylesheet" href="{{ url_for('static',filename='JogoDesenho/Jogo-Desenho/css/jogo-desenho.css') }}">
+        <link rel="shortcut icon" href="{{ url_for('static',filename='JogoDesenho/favicon.ico') }}" type="image/x-icon">
+        <title>Jogo Desenho</title>
         
     </head>
     <body>
-        <input class="voltar" type="image" src="../static/images/voltar.png">
+        <a href="{{ url_for ('Desenho') }}" class="bola_xcobra">
+            <div class="xx1"></div>
+            <div class="xx2"></div>
+        </a>
 
-        <img class="maquina" src="../static/images/maquina.png">
-        <img class="robo1" src="../static/images/robo1.png">
-        <img class="gatorobo" src="../static/images/gatorobo.png">
-        <img class="maorobo2" src="../static/images/maorobo2.png">
-        <img class="maorobo" src="../static/images/maorobo.png">
-        <img class="robo2" src="../static/images/robo2.png">
-        <img class="robo3" src="../static/images/robo3.png">
+        <img class="maquina" src="../../../static/JogoDesenho/Jogo-Desenho/images/maquina.png">
+        <img class="robo1" src="../../../static/JogoDesenho/Jogo-Desenho/images/robo1.png">
+        <img class="gatorobo" src="../../../static/JogoDesenho/Jogo-Desenho/images/gatorobo.png">
+        <img class="maorobo2" src="../../../static/JogoDesenho/Jogo-Desenho/images/maorobo2.png">
+        <img class="maorobo" src="../../../static/JogoDesenho/Jogo-Desenho/images/maorobo.png">
+        <img class="robo2" src="../../../static/JogoDesenho/Jogo-Desenho/images/robo2.png">
+        <img class="robo3" src="../../../static/JogoDesenho/Jogo-Desenho/images/robo3.png">
 
         <div class="container">
             <section class="lousa">
@@ -29,17 +33,17 @@
             <asside class="img">
                 <button class="maisDesenho" onclick="abrirImagens()">Mais Desenhos <i class="arrow down"></i></button>
                 <div id="imagens">
-                    <input type="image" class="botao kidcode" src="../static/images/kidscode.png" onclick="desenho1()">
+                    <input type="image" class="botao kidcode" src="../../../static/JogoDesenho/Jogo-Desenho/images/kidscode.png" onclick="desenho1()">
 
-                    <input type="image" class="botao carro" src="../static/images/carro.png" onclick="desenho2()">
+                    <input type="image" class="botao carro" src="../../../static/JogoDesenho/Jogo-Desenho/images/carro.png" onclick="desenho2()">
 
-                    <input type="image" class="botao casa" src="../static/images/casa.png" onclick="desenho3()">
+                    <input type="image" class="botao casa" src="../../../static/JogoDesenho/Jogo-Desenho/images/casa.png" onclick="desenho3()">
 
-                    <input type="image" class="botao kidcode" src="../static/images/kidscode.png" onclick="desenho1()">
+                    <input type="image" class="botao kidcode" src="../../../static/JogoDesenho/Jogo-Desenho/images/kidscode.png" onclick="desenho1()">
 
-                    <input type="image" class="botao carro" src="../static/images/carro.png" onclick="desenho2()">
+                    <input type="image" class="botao carro" src="../../../static/JogoDesenho/Jogo-Desenho/images/carro.png" onclick="desenho2()">
 
-                    <input type="image" class="botao casa" src="../static/images/casa.png" onclick="desenho3()">
+                    <input type="image" class="botao casa" src="../../../static/JogoDesenho/Jogo-Desenho/images/casa.png" onclick="desenho3()">
                     
                 </div> 
             </asside>
@@ -63,8 +67,8 @@
             <button class="save">Salvar Desenho</button>
             <!-- <input type="range" id="maa" min="8" max="15"> -->
         </div>
-    </body >
-    <script src="../static/js/desenho.js"></script>
+    </body>
+    <script src="{{ url_for('static',filename='JogoDesenho/Jogo-Desenho/js/jogo-desenho.js') }}"></script>
 </html>
 
 
