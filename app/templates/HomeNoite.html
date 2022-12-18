@@ -1,135 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KidsCode</title>
-    <link rel="stylesheet" href="{{ url_for('static',filename='HomePage/css/StyleHomeNoite.css') }}">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KidsCode</title>
+  <link rel="stylesheet" href="{{ url_for('static',filename='HomePage/css/StyleHomeNoite.css') }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" href="{{ url_for('static',filename='favicon.ico') }}" type="image/x-icon">
 </head>
 <header class="HeaderHomePage">
   <a href="{{ url_for ('Perfil') }}" class="rota_perfil02">
     <img src="../static/Perfil/images/astro-verde.png" class="imgY">
   </a>
   <a href="#menujogos" class="JogosHomePage">Jogos</a>
-  <a href="#sobrenos" class="SobreHomePage" >Sobre</a>
+  <a href="#sobrenos" class="SobreHomePage">Sobre</a>
   <a href="#tutorial" class="TutorialHomePage">Tutorial</a>
-  <a href="{{ url_for ('login2') }}" class= "LoginHomePage"><button class="BotãoLoginHomePage">Login</button></a>
-  <a href="{{ url_for ('Registro') }}" class= "RegistroHomePage"><button class="BotãoRegistroHomePage">Registrar</button></a>
+  <a href="{{ url_for ('login2') }}" class="LoginHomePage"><button class="BotãoLoginHomePage">Entrar</button></a>
+  <a href="{{ url_for ('Registro') }}" class="RegistroHomePage"><button
+      class="BotãoRegistroHomePage">Cadastre-se</button></a>
 </header>
+
 <body class="BodyHomePage">
   <div class="HomeBody">
     <div class="Nuvens">
 
-    <a href="{{ url_for ('home1') }}"><img src="../static/HomePage/images/lua.png" id="LuaHomePage"></a>
-  <img src="../static/HomePage/images/logo2.png" class="LogoHomePage">
-  <img src="../static/HomePage/images/nuvem.png" class="NuvemHomePage1">
-  <img src="../static/HomePage/images/estrela.png" class="Estrela1">
-  <img src="../static/HomePage/images/estrela.png" class="Estrela2">
-  <img src="../static/HomePage/images/estrela.png" class="Estrela3">
-  <img src="../static/HomePage/images/estrela.png" class="Estrela4">
-  <img src="../static/HomePage/images/estrela.png" class="Estrela5">
-  <img src="../static/HomePage/images/estrela.png" class="Estrela6">
-  <img src="../static/HomePage/images/estrela.png" class="Estrela7">
-  <img src="../static/HomePage/images/estrela.png" class="Estrela8">
-  <img src="../static/HomePage/images/estrela.png" class="Estrela9">
-  <img src="../static/HomePage/images/estrela.png" class="Estrela10">
-  <img src="../static/HomePage/images/estrela.png" class="Estrela11">
-  <img src="../static/HomePage/images/nuvem.png" class="NuvemHomePage2">
-  <img src="../static/HomePage/images/nuvem.png" class="NuvemHomePage3">
-  <img src="../static/HomePage/images/nuvem.png" class="NuvemHomePage4">
-  <img src="../static/HomePage/images/nuvem.png" class="NuvemHomePage5">
-  <img src="../static/HomePage/images/nuvem.png" class="NuvemHomePage6">
-  <img src="../static/HomePage/images/gato1.png" class="MascoteNuvemHome">
-</div>
-
-  
-  <div class="MenuJogos" >
-  <h1 class="JogosHomePageTitulo" id="menujogos">JOGOS</h1>
-  <img src="../static/HomePage/images/desenho.png" class="DesenhoGameHome">
-  <img src="../static/HomePage/images/snake.png" class="SnakeGameHome">
-  <img src="../static/HomePage/images/Labirinto.png" class="LabirintoGameHome">
-  <img src="../static/HomePage/images/quiz (1).png" class="QuizGameHome">
-  </div>
-  <div class="Tutorial" >
-   <h1 class="TutorialTituloHomePage" id="tutorial">Aprenda como utilizar o KidCode</h1>
-    <video src="../static/HomePage/images/gatin.mp4" controls class="VideoTutotiralHomePage"></video>
-  </div>
-  <div class="SobreNos">
-
-    <img src="../static/HomePage/images/nuvem.png" class="NuvemHomePage7">
-    <img src="../static/HomePage/images/nuvem.png" class="NuvemHomePage8">
-    <div class="SliderHome">
-
-   <div class="SlidersHome" id="sobrenos">
-    <input type="radio" name="radio-btn " id="radio1" class="InputSlideHome">
-    <input type="radio" name="radio-btn " id="radio2" class="InputSlideHome">
-    <input type="radio" name="radio-btn " id="radio3" class="InputSlideHome">
-    
-
-    <div class="slide1">
-    <img src="../static/HomePage/images/carroselimages/NoiteCarrosel1.png" />
+      <a href="{{ url_for ('home1') }}"><img src="../static/HomePage/images/lua.png" id="LuaHomePage"></a>
+      <img src="../static/HomePage/images/logo2.png" class="LogoHomePage">
+      <img src="../static/HomePage/images/nuvem.png" class="NuvemHomePage1">
+      <img src="../static/HomePage/images/estrela.png" class="Estrela1">
+      <img src="../static/HomePage/images/estrela.png" class="Estrela2">
+      <img src="../static/HomePage/images/estrela.png" class="Estrela3">
+      <img src="../static/HomePage/images/estrela.png" class="Estrela4">
+      <img src="../static/HomePage/images/estrela.png" class="Estrela5">
+      <img src="../static/HomePage/images/estrela.png" class="Estrela6">
+      <img src="../static/HomePage/images/estrela.png" class="Estrela7">
+      <img src="../static/HomePage/images/estrela.png" class="Estrela8">
+      <img src="../static/HomePage/images/estrela.png" class="Estrela9">
+      <img src="../static/HomePage/images/estrela.png" class="Estrela10">
+      <img src="../static/HomePage/images/estrela.png" class="Estrela11">
+      <img src="../static/HomePage/images/nuvem.png" class="NuvemHomePage2">
+      <img src="../static/HomePage/images/nuvem.png" class="NuvemHomePage3">
+      <img src="../static/HomePage/images/nuvem.png" class="NuvemHomePage4">
+      <img src="../static/HomePage/images/nuvem.png" class="NuvemHomePage5">
+      <img src="../static/HomePage/images/nuvem.png" class="NuvemHomePage6">
+      <img src="../static/HomePage/images/gato1.png" class="MascoteNuvemHome">
     </div>
 
-    <div class="slidegeral">
-    <img src="../static/HomePage/images/carroselimages/NoiteCarrosel2.png" />
+
+    <div class="MenuJogos">
+      <h1 class="JogosHomePageTitulo" id="menujogos">JOGOS</h1>
+      <img src="../static/HomePage/images/desenho.png" class="DesenhoGameHome">
+      <img src="../static/HomePage/images/snake.png" class="SnakeGameHome">
+      <img src="../static/HomePage/images/Labirinto.png" class="LabirintoGameHome">
+      <img src="../static/HomePage/images/quiz (1).png" class="QuizGameHome">
+    </div>
+    <div class="Tutorial">
+      <h1 class="TutorialTituloHomePage" id="tutorial">Aprenda com tia Nívia como utilizar o Kid's Code</h1>
+      <video src="../static/HomePage/images/gatin.mp4" controls class="VideoTutotiralHomePage"></video>
     </div>
 
-    <div class="slidegeral">
-      <img src="../static/HomePage/images/carroselimages/NoiteCarrosel3.png" />
+    <div class="wrapper">
+      <i id="left" class="fa-solid fa-angle-left"> « </i>
+      <div class="carousel">
+        <img src="../static/HomePage/images/carroselimages/carrossel1-dark.svg" alt="img" draggable="false">
+        <img src="../static/HomePage/images/carroselimages/carrossel2-dark.svg" alt="img" draggable="false">
+        <img src="../static/HomePage/images/carroselimages/carrossel3-dark.svg" alt="img" draggable="false">
+
       </div>
-    
-    <div class="navegarslides">
-      <div class="auto-btn1"></div>
-      <div class="auto-btn2"></div>
-      <div class="auto-btn3"></div>
+      <i id="right" class="fa-solid fa-angle-right"> »</i>
     </div>
 
-   </div>
 
-   <div class="manual-navegation">
-    <label for="radio1" class="manual-btn"></label>
-    <label for="radio2" class="manual-btn"> </label>
-    <label for="radio3" class="manual-btn"></label>
-   </div>
-
-    </div>
-
-    </div>
-
-    </div>
-    <div class="NaveFooter">
-      <a href="{{ url_for ('menuJogos') }}"><button id='JogarBTNHome'>Jogar</button></a>
+  </div>
+  <div class="NaveFooter">
+    <a href="{{ url_for ('menuJogos') }}"><button id='JogarBTNHome'>Jogar</button></a>
     <img src="../static/HomePage/images/TerraHomePage.png" class="Terra1Home">
     <img src="../static/HomePage/images/nave-espacial.png" class="NaveHomePage">
-    </div>
-    <script src="{{ url_for('static',filename='HomePage/js/JavascriptHomePageNoite.js') }}"></script>
+  </div>
+  <script src="{{ url_for('static',filename='HomePage/js/JavascriptHomePageNoite.js') }}"></script>
 </body>
 
 <footer>
   <div class="FooterHomePage">
 
-    <a href="https://new.safernet.org.br/content/acesso-%C3%A0-internet-por-crian%C3%A7as-e-adolescentes-dicas-de-como-orientar" class="PoliticaHomePage">Politíca de privicadade</a>
-    
-    <a href="https://www.alura.com.br/artigos/o-que-sao-cookies-como-funcionam?gclid=CjwKCAiAkfucBhBBEiwAFjbkr6ZbogWxM_QPQXOHwwk61W-3QB32Fsuo4QCXG7BMzEHKhzb3Z1na-BoCG80QAvD_BwE" class="AvisoHomePage">Aviso sobre cookies</a>
+    <a href="#" class="PoliticaHomePage">Politíca de privicadade</a>
 
-    <a href="https://www.instagram.com/instituto.proa/" class="ParceirosHomePage">Parceiros</a>
+    <a href="#" class="AvisoHomePage">Aviso sobre cookies</a>
+
+    <a href="#" class="ParceirosHomePage">Parceiros</a>
 
     <a href="#" class="DoaçãoHomePage">Faça uma doação</a>
-  
-   
-    <a href="https://www.instagram.com/kid.code5544/"><img src="../static/HomePage/images/instagram.png" class="InstagramHomePage"></a>
-    
+
+
+    <a href="https://www.instagram.com/kid.code5544/"><img src="../static/HomePage/images/instagram.png"
+        class="InstagramHomePage"></a>
+
     <a href="#"><img src="../static/HomePage/images/whatsapp.png" class="WhatsappHomepage"></a>
 
     <a href="#"><img src="../static/HomePage/images/gmail.png" class="GmailHomePage"></a>
-  
+
 
   </div>
 </footer>
+
 </html>

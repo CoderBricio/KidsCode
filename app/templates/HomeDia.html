@@ -21,8 +21,8 @@
   <a href="#menujogos" class="JogosHomePage">Jogos</a>
   <a href="#sobrenos" class="SobreHomePage">Sobre Nós</a>
   <a href="#tutorial" class="TutorialHomePage">Tutorial</a>
-  <a href="{{ url_for ('login1') }}" class= "LoginHomePage"><button class="BotãoLoginHomePage">Login</button></a>
-  <a href="{{ url_for ('Registro') }}" class= "RegistroHomePage"><button class="BotãoRegistroHomePage">Registrar</button></a>
+  <a href="{{ url_for ('login1') }}" class= "LoginHomePage"><button class="BotãoLoginHomePage">Entrar</button></a>
+  <a href="{{ url_for ('Registro') }}" class= "RegistroHomePage"><button class="BotãoRegistroHomePage">Criar conta</button></a>
 </header>
 <body class="BodyHomePage">
   <div class="HomeBody">
@@ -49,50 +49,23 @@
   <img src="../static/HomePage/images/quiz (1).png" class="QuizGameHome">
   </div>
   <div class="Tutorial" >
-   <h1 class="TutorialTituloHomePage" id="tutorial">Aprenda como utilizar o KidCode</h1>
+   <h1 class="TutorialTituloHomePage" id="tutorial">Aprenda com tia Nívia como utilizar o Kid's Code</h1>
     <video src="../static/HomePage/images/gatin.mp4" controls class="VideoTutotiralHomePage"></video>
   </div>
-  <div class="SobreNos">
 
-    <img src="../static/HomePage/images/nuvem.png" class="NuvemHomePage7">
-    <img src="../static/HomePage/images/nuvem.png" class="NuvemHomePage8">
-    <div class="SliderHome">
-
-   <div class="SlidersHome" id="sobrenos">
-    <input type="radio" name="radio-btn " id="radio1" class="InputSlideHome">
-    <input type="radio" name="radio-btn " id="radio2" class="InputSlideHome">
-    <input type="radio" name="radio-btn " id="radio3" class="InputSlideHome">
-    
-
-    <div class="slide1">
-    <img src="../static/HomePage/images/carroselimages/DiaCarrosel1.png"  />
+<div class="wrapper">
+    <i id="left" class="fa-solid fa-angle-left"> « </i>
+    <div class="carousel">
+        <img src="../static/HomePage/images/carroselimages/carrossel1-dia.svg" alt="img" draggable="false">
+        <img src="../static/HomePage/images/carroselimages/carrossel2-dia.svg" alt="img" draggable="false">
+        <img src="../static/HomePage/images/carroselimages/carrossel3-dia.svg" alt="img" draggable="false">
+       
     </div>
+    <i id="right" class="fa-solid fa-angle-right"> »</i>
+</div>
 
-    <div class="slidegeral">
-    <img src="../static/HomePage/images/carroselimages/DiaCarrosel2.png" />
-    </div>
 
-    <div class="slidegeral">
-      <img src="../static/HomePage/images/carroselimages/DiaCarrosel3.png" />
-      </div>
-    
-    <div class="navegarslides">
-      <div class="auto-btn1"></div>
-      <div class="auto-btn2"></div>
-      <div class="auto-btn3"></div>
-    </div>
-
-   </div>
-   
-   <div class="manual-navegation">
-    <label for="radio1" class="manual-btn"></label>
-    <label for="radio2" class="manual-btn"> </label>
-    <label for="radio3" class="manual-btn"></label>
-   </div>
-
-    </div>
-
-    </div>
+  
 
     </div>
     <div class="NaveFooter">
@@ -106,11 +79,11 @@
 <footer>
   <div class="FooterHomePage">
 
-    <a href="https://new.safernet.org.br/content/acesso-%C3%A0-internet-por-crian%C3%A7as-e-adolescentes-dicas-de-como-orientar" class="PoliticaHomePage">Politíca de privicadade</a>
+    <a href="#" class="PoliticaHomePage">Politíca de privicadade</a>
     
-    <a href="https://www.alura.com.br/artigos/o-que-sao-cookies-como-funcionam?gclid=CjwKCAiAkfucBhBBEiwAFjbkr6ZbogWxM_QPQXOHwwk61W-3QB32Fsuo4QCXG7BMzEHKhzb3Z1na-BoCG80QAvD_BwE" class="AvisoHomePage">Aviso sobre cookies</a>
+    <a href="#" class="AvisoHomePage">Aviso sobre cookies</a>
 
-    <a href="https://www.instagram.com/instituto.proa/" class="ParceirosHomePage">Parceiros</a>
+    <a href="#" class="ParceirosHomePage">Parceiros</a>
 
     <a href="#" class="DoaçãoHomePage">Faça uma doação</a>
   

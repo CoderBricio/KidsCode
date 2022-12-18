@@ -1,26 +1,24 @@
-
-
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    
-    
-    
-    
+
+
+
+
 }
 
 
-.HeaderHomePage{
+.HeaderHomePage {
     background: #98E1F8;
     width: 100%;
     height: 5rem;
     position: fixed;
     z-index: 99;
-    
+
 }
 
-.imgX{
+.imgX {
     cursor: pointer;
     position: absolute;
     width: 100px;
@@ -29,77 +27,78 @@
 }
 
 
-.JogosHomePage{
+.JogosHomePage {
     position: absolute;
     text-decoration: none;
-    color: #DC143C;
-    
+    color: #5F5BD9;
+
     margin-left: 22%;
     margin-top: 2%;
     font-size: 150%;
     z-index: 0;
-    
+
 }
 
-.JogosHomePage:hover{
-    color: green;
-    transition:0.5s;
+.JogosHomePage:hover {
+    color: #F2C029;
+    transition: 0.5s;
 }
 
-.TutorialHomePage{
+.TutorialHomePage {
     position: absolute;
     text-decoration: none;
-    color: #DC143C;
+    color: #5F5BD9;
     margin-left: 33%;
     margin-top: 2%;
     font-size: 150%;
     z-index: 0;
-    
+
 }
 
-.TutorialHomePage:hover{
-    color: green;
-    transition:0.5s;
+.TutorialHomePage:hover {
+    color: #F2C029;
+    transition: 0.5s;
 }
 
 
-.SobreHomePage{
+.SobreHomePage {
     position: absolute;
     text-decoration: none;
-    color: #DC143C;
+    color: #5F5BD9;
     margin-left: 45%;
     margin-top: 2%;
     font-size: 150%;
     z-index: 0;
 }
 
-.SobreHomePage:hover{
-    color: green;
-    transition:0.5s;
+.SobreHomePage:hover {
+    color: #F2C029;
+    transition: 0.5s;
 }
 
 
-.BotãoRegistroHomePage{
+.BotãoRegistroHomePage {
     position: absolute;
     margin-left: 75%;
     margin-top: 0.9%;
-    width: 9%;
+    width: 10%;
     height: 65%;
     border-radius: 10px;
     font-size: 130%;
     color: white;
-    background: #DC143C;
+    background: #5F5BD9;
     cursor: pointer;
     border: none;
-    
+
 }
 
-.BotãoRegistroHomePage:hover{
-    background: green;
+.BotãoRegistroHomePage:hover {
+    background: #F2C029;
+    color: white;
     transition: 0.5s;
 }
 
-.BotãoLoginHomePage{
+.BotãoLoginHomePage {
     position: absolute;
     margin-left: 88%;
     margin-top: 0.9%;
@@ -108,53 +107,53 @@
     border-radius: 10px;
     font-size: 130%;
     color: white;
-    background: #DC143C;
+    background: #5F5BD9;
     cursor: pointer;
     border: none;
 }
 
-.BotãoLoginHomePage:hover{
-    background: green;
-    
+.BotãoLoginHomePage:hover {
+    background: #F2C029;
+
     transition: 0.5s;
 }
 
-.BodyHomePage{
-    background: #98E1F8;
-    
+.BodyHomePage {
+    background: linear-gradient(180deg, #98BBF8 0%, #98BBF8 0%, #98E1F8 0.01%, #98E1F8 73.96%, #F7A837 93.23%, #EA3F24 100%);
+
 }
 
 
-#SolHomePage{
+#SolHomePage {
     position: absolute;
     width: 22%;
     margin-top: 9%;
     z-index: 0;
-   
+
 }
 
-.LogoHomePage{
+.LogoHomePage {
     position: absolute;
     width: 40%;
     margin-top: 12%;
-    margin-left: 32%;  
-    z-index: 98;  
+    margin-left: 32%;
+    z-index: 98;
 }
 
-@keyframes nuvemAnimation{
-    from{
+@keyframes nuvemAnimation {
+    from {
         transform: translateX(100px);
     }
 }
 
-@keyframes nuvemGatoAnimation{
-    from{
+@keyframes nuvemGatoAnimation {
+    from {
         transform: translateX(10px);
     }
 }
 
 
-.NuvemHomePage1{
+.NuvemHomePage1 {
     position: absolute;
     width: 20%;
     margin-top: 25%;
@@ -164,7 +163,7 @@
     animation: nuvemAnimation 10s ease-in-out infinite alternate;
 }
 
-.NuvemHomePage2{
+.NuvemHomePage2 {
     position: absolute;
     width: 20%;
     margin-top: 16%;
@@ -173,7 +172,7 @@
     animation: nuvemAnimation 10s ease-in-out infinite alternate;
 }
 
-.NuvemHomePage3{
+.NuvemHomePage3 {
     position: absolute;
     width: 20%;
     margin-top: 45%;
@@ -182,7 +181,7 @@
     animation: nuvemAnimation 10s ease-in-out infinite alternate;
 }
 
-.NuvemHomePage4{
+.NuvemHomePage4 {
     position: absolute;
     width: 20%;
     margin-top: 55%;
@@ -191,7 +190,7 @@
     animation: nuvemAnimation 10s ease-in-out infinite alternate;
 }
 
-.NuvemHomePage5{
+.NuvemHomePage5 {
     position: absolute;
     width: 20%;
     margin-top: 84%;
@@ -200,39 +199,39 @@
     animation: nuvemAnimation 10s ease-in-out infinite alternate;
 }
 
-.NuvemHomePage6{
+.NuvemHomePage6 {
     position: absolute;
     width: 20%;
     margin-top: 110%;
-    margin-left:5%;
+    margin-left: 5%;
     z-index: 0;
     animation: nuvemGatoAnimation 5s ease-in-out infinite alternate;
 }
 
-.NuvemHomePage7{
+.NuvemHomePage7 {
     position: absolute;
     width: 20%;
-   
-    margin-left:5%;
+
+    margin-left: 5%;
     z-index: 0;
     animation: nuvemAnimation 10s ease-in-out infinite alternate;
 }
 
-.NuvemHomePage8{
+.NuvemHomePage8 {
     position: absolute;
     width: 20%;
-   
-    margin-left:70%;
+
+    margin-left: 70%;
     z-index: 0;
     animation: nuvemAnimation 10s ease-in-out infinite alternate;
 }
 
 
-.MascoteNuvemHome{
+.MascoteNuvemHome {
     position: absolute;
     width: 17%;
     margin-top: 110%;
-    margin-left: 5% ;
+    margin-left: 5%;
     z-index: 0;
     animation: nuvemGatoAnimation 5s ease-in-out infinite alternate;
 }
@@ -240,22 +239,22 @@
 
 
 
-.JogosHomePageTitulo{
+.JogosHomePageTitulo {
     position: absolute;
-    
+
     margin-left: 45%;
     margin-top: 60%;
     font-size: 230%;
 }
 
-.DesenhoGameHome{
+.DesenhoGameHome {
     position: absolute;
     width: 10%;
     margin-top: 75%;
     margin-left: 15%;
 }
 
-.SnakeGameHome{
+.SnakeGameHome {
     position: absolute;
     width: 10%;
     margin-top: 75%;
@@ -263,7 +262,7 @@
 
 }
 
-.LabirintoGameHome{
+.LabirintoGameHome {
     position: absolute;
     width: 10%;
     margin-top: 75%;
@@ -271,7 +270,7 @@
 
 }
 
-.QuizGameHome{
+.QuizGameHome {
     position: absolute;
     width: 10%;
     margin-top: 75%;
@@ -280,7 +279,7 @@
 }
 
 
-.TutorialTituloHomePage{
+.TutorialTituloHomePage {
     position: absolute;
 
     margin-left: 23%;
@@ -294,215 +293,203 @@
 }
 
 @keyframes pisca {
-    100%{
+    100% {
         border-right-color: transparent;
     }
-    
+
 }
 
 @keyframes escrever {
-    100%{
+    100% {
         max-width: 100%;
     }
-    
+
 }
 
-.VideoTutotiralHomePage{
+.VideoTutotiralHomePage {
     width: 40%;
     z-index: 99;
     margin-top: 116%;
     margin-left: 32%;
 }
 
-.SliderHome{
+.programacao {
     position: absolute;
-    margin-left: 26%;
-    margin-top: 20%;
-    width: 45.5%;
-    height: 70%;
-    overflow: hidden;
+    margin-top: -30px;
+    margin-left: 500px;
 }
 
-.SlidersHome{
-    width: 400%;
-    height: 70%;
+.wrapper {
+    box-sizing: unset;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8%;
+    margin-top: 15%;
+    padding: 40px;
     display: flex;
-}
-
-.InputSlideHome{
-    display: none;
-}
-
-.slidegeral{
-    width: 25%;
+    max-width: 1200px;
     position: relative;
 }
 
-.manual-navegation{
-    position: absolute;
-    width: 810px;
-    margin-top: -10%;
-    display: flex;
-    margin-left: 40%;
-}
-
-.manual-btn{
-    border: 2px solid white;
-    padding: 5px;
-    border-radius: 10px;
+.wrapper i {
+    top: 50%;
+    height: 44px;
+    width: 44px;
+    color: white;
     cursor: pointer;
-    transition: 1s;
+    font-size: 1.15rem;
+    position: absolute;
+    text-align: center;
+    line-height: 44px;
+    background: #5F5BD9;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
 }
 
-.manual-btn:not(:last-child){
-    margin-right: 5%;
+.wrapper i:active {
+    transform: translateY(-50%) scale(0.9);
 }
 
-.manual-btn:hover{
-    background-color: black;
+.wrapper i:hover {
+    background: #F2C029;
 }
 
-#radio1:checked ~ .slide1{
-    margin-left: 0;
+.wrapper i:first-child {
+    left: -22px;
+    display: none;
 }
 
-#radio2:checked ~ .slide1{
-    margin-left: -25%;
+.wrapper i:last-child {
+    right: -22px;
 }
 
-#radio3:checked ~ .slide1{
-    margin-left: -50%;
+.wrapper .carousel {
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+
+.carousel.dragging {
+    cursor: grab;
+    scroll-behavior: auto;
+}
+
+.carousel.dragging img {
+    pointer-events: none;
+}
+
+.carousel img {
+    height: 340px;
+    object-fit: cover;
+    user-select: none;
+    margin-left: 14px;
+    width: 100%;
+}
+
+.carousel img:first-child {
+    margin-left: 0px;
 }
 
 
 
-
-.Terra1Home{
+.Terra1Home {
     position: absolute;
     width: 70%;
-    margin-left: 14%;
-    margin-top: 73%;
+    margin-left: 16%;
+    margin-top: 25%;
 }
 
-.NaveHomePage{
+.NaveHomePage {
     position: absolute;
-    width: 100px;
-    margin-left: 45%;
-    margin-top: 72%;
+    width: 8%;
+    margin-left: 46%;
+    margin-top: 25%;
 }
 
-.FooterHomePage{
-    margin-top: 120%;
+.FooterHomePage {
+    margin-top: 70%;
     margin-left: 3%;
-    
+
 }
 
-#JogarBTNHome{
+#JogarBTNHome {
     position: absolute;
-    margin-top: 60%;
+    margin-top: 15%;
     margin-left: 45%;
-    width: 100px;
+    width: 10%;
     height: 50px;
-    background: #DC143C;
+    background: #5F5BD9;
     color: white;
     border-radius: 10px;
     border: 0;
     cursor: pointer;
 }
 
-#JogarBTNHome:hover{
-    width: 101px;
+#JogarBTNHome:hover {
     height: 51px;
-    background:green ;
+    background: #F2C029;
     transition: 0.2s;
 }
 
-.PoliticaHomePage{
-   position: absolute;
+
+
+.PoliticaHomePage {
     text-decoration: none;
-    color: black;
-    padding: 20px;
-    color: #DC143C;
-    margin-left: 1%;
-    margin-top: -1%;
+    margin-top: 20px;
+    margin-left: 5%;
+    color: #0B0A4B;
 }
 
-.PoliticaHomePage:hover{
-    color: green;
-}
 
-.AvisoHomePage{
-    position: absolute;
+
+.AvisoHomePage {
     text-decoration: none;
-    color: black;
-    margin-left: 20%;
-    padding: 20px;
-    color: #DC143C;
-    margin-top: -1%;
+    margin-top: 20px;
+    color: #0B0A4B;
+    margin-left: 5%;
 
 }
 
-.AvisoHomePage:hover{
-    color: green;
-}
 
-.ParceirosHomePage{
-    position: absolute;
+.ParceirosHomePage {
     text-decoration: none;
-    color: black;
-    padding: 20px;
-    margin-left: 37%;
-    color: #DC143C;
-    margin-top: -1%;
+    color: #0B0A4B;
+    margin-top: 20px;
+    margin-left: 5%;
 }
 
-.ParceirosHomePage:hover{
-    color: green;
-}
 
-.DoaçãoHomePage{
-    position: absolute;
+.DoaçãoHomePage {
     text-decoration: none;
-    color: black;
-    padding: 20px;
-    margin-left: 48%;
-    color: #DC143C;
-    margin-top: -1%;
-
+    margin-top: 20px;
+    color: #0B0A4B;
+    margin-left: 5%;
 }
 
-.DoaçãoHomePage:hover{
-    color: green;
-}
 
-.InstagramHomePage{
-    position: absolute;
-   margin-left: 71%;
+
+.InstagramHomePage {
+    margin-left: 250px;
     width: 45px;
-    margin-top: -0.5%;
-   
-    
-    
+
+
 }
 
-.WhatsappHomepage{
-    position: absolute;
+.WhatsappHomepage {
     width: 45px;
     margin-left: 20px;
-    margin-left: 78%;
-    margin-top: -0.5%;
-    
-    
+
+
 
 }
 
-.GmailHomePage{
-    position: absolute;
-    margin-left: 85%;
+.GmailHomePage {
+    margin-left: 20px;
     width: 45px;
-    margin-top: -0.5%;
-    
-    
-    
-}
 
+
+
+}
