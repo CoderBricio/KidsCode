@@ -418,10 +418,13 @@
 }
 
 .PoliticaHomePage{
+   position: absolute;
     text-decoration: none;
     color: black;
     padding: 20px;
     color: #DC143C;
+    margin-left: 1%;
+    margin-top: -1%;
 }
 
 .PoliticaHomePage:hover{
@@ -429,10 +432,13 @@
 }
 
 .AvisoHomePage{
+    position: absolute;
     text-decoration: none;
     color: black;
+    margin-left: 20%;
     padding: 20px;
     color: #DC143C;
+    margin-top: -1%;
 
 }
 
@@ -441,10 +447,13 @@
 }
 
 .ParceirosHomePage{
+    position: absolute;
     text-decoration: none;
     color: black;
     padding: 20px;
+    margin-left: 37%;
     color: #DC143C;
+    margin-top: -1%;
 }
 
 .ParceirosHomePage:hover{
@@ -452,10 +461,14 @@
 }
 
 .DoaçãoHomePage{
+    position: absolute;
     text-decoration: none;
     color: black;
     padding: 20px;
+    margin-left: 48%;
     color: #DC143C;
+    margin-top: -1%;
+
 }
 
 .DoaçãoHomePage:hover{
@@ -463,24 +476,31 @@
 }
 
 .InstagramHomePage{
-   margin-left: 250px;
+    position: absolute;
+   margin-left: 71%;
     width: 45px;
+    margin-top: -0.5%;
    
     
     
 }
 
 .WhatsappHomepage{
+    position: absolute;
     width: 45px;
     margin-left: 20px;
+    margin-left: 78%;
+    margin-top: -0.5%;
     
     
 
 }
 
 .GmailHomePage{
-    margin-left: 20px;
+    position: absolute;
+    margin-left: 85%;
     width: 45px;
+    margin-top: -0.5%;
     
     
     
