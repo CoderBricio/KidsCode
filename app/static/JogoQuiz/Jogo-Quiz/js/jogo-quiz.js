@@ -7,13 +7,33 @@ let perguntas = [
     },
     {
          titulo: 'Como fazer para apagar o erro que você cometeu no jogo do desenho?',
-         alternativas: ['Com o botão de apagar', 'Mudando para a cor branca', 'Reiniciando a página', ''],
+         alternativas: ['Com o botão de apagar', 'Mudando para a cor branca', 'Reiniciando a página', 'Clicando na tela'],
          correta: 1
     },
     {
-        titulo: 'Bird',
-        alternativas: ['Gato', 'Urubu', 'Pombo', 'Passaro'],
-        correta: 3
+        titulo: 'Quantas cartas roxas existe no jogo da mémoria?',
+        alternativas: ['0', '2', '4', '6'],
+        correta: 2
+    },
+    {
+        titulo: 'onde a cobrinha começa no jogo?',
+        alternativas: ['Canto superio direito', 'Canto inferior direito', 'Canto superio esquedo', 'Canto inferior esquerdo'],
+        correta: 2
+    },
+    {
+        titulo: 'Com qual tamanho a cobrinha começa o jogo?',
+        alternativas: ['3', '4', '5', '6'],
+        correta: 2
+    },
+    {
+        titulo: 'Qual é a fruta do jogo da cobrinha?',
+        alternativas: ['Pera', 'Uva', 'Maçã', 'Melancia'],
+        correta: 2
+    },
+    {
+        titulo: 'No jogo do desenho a um veículo, que veiculo é esse?',
+        alternativas: ['Moto', 'Carro', 'Caminhão', 'Bicicleta'],
+        correta: 1
     }
     
     ]
@@ -83,7 +103,7 @@ let perguntas = [
             let pergunta = perguntas[this.Atualpos];
             let cindice = pergunta.correta;
             let ctexto = pergunta.alternativas[cindice];
-            result = `Incorreto! Resposta correta: ${ctexto}`;
+            result = `Resposta: ${ctexto}`;
         }
         resultDiv.textContent = result;
     }
