@@ -7,7 +7,7 @@ var maca = new Image();
 maca.src = '../../../static/JogoCobrinha/Jogo-Cobrinha/images/maca1.png';
 
 var fundo = new Image();
-fundo.src = '../../../static/JogoCobrinha/Jogo-Cobrinha/images/terra12.png';
+fundo.src = '../../../static/JogoCobrinha/Jogo-Cobrinha/images/fundo.png';
 
 const glupSound = new Audio("../../../static/JogoCobrinha/Jogo-Cobrinha/sounds/gulp.mp3");
 const gameOver = new Audio("../../../static/JogoCobrinha/Jogo-Cobrinha/sounds/gameover.mp3");
@@ -62,7 +62,7 @@ function game(){
 
     ctx.fillStyle = '#FD8087';
     for(var i = 0; i < trail.length; i++){
-        ctx.fillRect(trail[i].x*tp, trail[i].y*tp, tp, tp);
+        ctx.fillRect(trail[i].x*tp, trail[i].y*tp, tp-1, tp-1);
         
         
 
