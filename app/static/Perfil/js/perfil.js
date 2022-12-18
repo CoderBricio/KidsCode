@@ -10,20 +10,20 @@ bolaX.addEventListener("click", function(){
 var fotoPerfil = document.querySelector(".foto_perfil");
 var fotoPerfilSrc = localStorage.getItem("valueSrcPerfil");
 switch(fotoPerfilSrc){
-    case "file:///C:/KidCode/KidCode/Perfil/img/astro-roxo.png":{
-        fotoPerfil.src = "../Perfil/img/astro-roxo.png";
+    case "/images/astro-roxo.png":{
+        fotoPerfil.src = "../images/astro-roxo.png";
     }break;
-    case "file:///C:/KidCode/KidCode/Perfil/img/astro-azul.png":{
-        fotoPerfil.src = "../Perfil/img/astro-azul.png";
+    case "/images/astro-azul.png":{
+        fotoPerfil.src = "../images/astro-azul.png";
     }break;
-    case "file:///C:/KidCode/KidCode/Perfil/img/astro-amare.png":{
-        fotoPerfil.src = "../Perfil/img/astro-amare.png";
+    case "/images/astro-amare.png":{
+        fotoPerfil.src = "../images/astro-amare.png";
     }break;
-    case "file:///C:/KidCode/KidCode/Perfil/img/astro-verme.png":{
-        fotoPerfil.src = "../Perfil/img/astro-verme.png";
+    case "/images/astro-verme.png":{
+        fotoPerfil.src = "../images/astro-verme.png";
     }break;
-    case "file:///C:/KidCode/KidCode/Perfil/img/astro-verde.png":{
-        fotoPerfil.src = "../Perfil/img/astro-verde.png";
+    case "/images/astro-verde.png":{
+        fotoPerfil.src = "../images/astro-verde.png";
     }break;
 }
 
@@ -39,24 +39,24 @@ bolaCruz.addEventListener("click", function(){
     }
 })
 
-//Alteração da cor do background-color da div onde está as informações do usuário. A cor será igual a cor do astronauta da foto de perfil
+//Alteração" da cor do background-color da div onde está as informações do usuário. A cor será igual a cor do astronauta da foto de perfil
 var fotoPerfil = document.querySelector('.foto_perfil');
 var infoUsu = document.querySelector(".info_usu");
 function alterarCorInfoUsu(fotoPerfil){
     switch(fotoPerfil.src){
-        case 'file:///C:/KidCode/KidCode/Perfil/img/astro-azul.png':{
+        case 'http://127.0.0.1:5000/static/Perfil/images/astro-azul.png':{
             infoUsu.style.backgroundColor = "rgb(" + 0 + "," + 0 + "," + 255 +"," + 0.5 +")"; 
         }break;
-        case 'file:///C:/KidCode/KidCode/Perfil/img/astro-roxo.png':{
+        case 'http://127.0.0.1:5000/static/Perfil/images/astro-roxo.png':{
             infoUsu.style.backgroundColor = "rgb(" + 105 + "," + 5 + "," + 179 +"," + 0.5 +")"; 
         }break;
-        case 'file:///C:/KidCode/KidCode/Perfil/img/astro-verme.png':{
+        case 'http://127.0.0.1:5000/static/Perfil/images/astro-verme.png':{ 
             infoUsu.style.backgroundColor = "rgb(" + 255 + "," + 0 + "," + 0 +"," + 0.5 +")"; 
         }break;
-        case 'file:///C:/KidCode/KidCode/Perfil/img/astro-amare.png':{
+        case 'http://127.0.0.1:5000/static/Perfil/images/astro-amare.png':{
             infoUsu.style.backgroundColor = "rgb(" + 255 + "," + 255 + "," + 0 +"," + 0.5 +")"; 
         }break;
-        case 'file:///C:/KidCode/KidCode/Perfil/img/astro-verde.png':{
+        case 'http://127.0.0.1:5000/static/Perfil/images/astro-verde.png':{
             infoUsu.style.backgroundColor = "rgb(" + 5 + "," + 237 + "," + 0 +"," + 0.5 +")"; 
         }break;
     }    
