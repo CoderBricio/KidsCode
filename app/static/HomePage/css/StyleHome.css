@@ -32,7 +32,8 @@
 .JogosHomePage{
     position: absolute;
     text-decoration: none;
-    color: #0803B9;
+    color: #DC143C;
+    
     margin-left: 22%;
     margin-top: 2%;
     font-size: 150%;
@@ -40,10 +41,15 @@
     
 }
 
+.JogosHomePage:hover{
+    color: green;
+    transition:0.5s;
+}
+
 .TutorialHomePage{
     position: absolute;
     text-decoration: none;
-    color: #0803B9;
+    color: #DC143C;
     margin-left: 33%;
     margin-top: 2%;
     font-size: 150%;
@@ -51,15 +57,27 @@
     
 }
 
+.TutorialHomePage:hover{
+    color: green;
+    transition:0.5s;
+}
+
+
 .SobreHomePage{
     position: absolute;
     text-decoration: none;
-    color: #0803B9;
+    color: #DC143C;
     margin-left: 45%;
     margin-top: 2%;
     font-size: 150%;
     z-index: 0;
 }
+
+.SobreHomePage:hover{
+    color: green;
+    transition:0.5s;
+}
+
 
 .BotãoRegistroHomePage{
     position: absolute;
@@ -70,10 +88,15 @@
     border-radius: 10px;
     font-size: 130%;
     color: white;
-    background: #0000FF;
+    background: #DC143C;
     cursor: pointer;
     border: none;
     
+}
+
+.BotãoRegistroHomePage:hover{
+    background: green;
+    transition: 0.5s;
 }
 
 .BotãoLoginHomePage{
@@ -85,9 +108,15 @@
     border-radius: 10px;
     font-size: 130%;
     color: white;
-    background: #0000FF;
+    background: #DC143C;
     cursor: pointer;
     border: none;
+}
+
+.BotãoLoginHomePage:hover{
+    background: green;
+    
+    transition: 0.5s;
 }
 
 .BodyHomePage{
@@ -374,36 +403,63 @@
     margin-left: 45%;
     width: 100px;
     height: 50px;
-    background: #0000FF;
+    background: #DC143C;
     color: white;
     border-radius: 10px;
     border: 0;
     cursor: pointer;
 }
 
+#JogarBTNHome:hover{
+    width: 101px;
+    height: 51px;
+    background:green ;
+    transition: 0.2s;
+}
+
 .PoliticaHomePage{
     text-decoration: none;
     color: black;
     padding: 20px;
+    color: #DC143C;
+}
+
+.PoliticaHomePage:hover{
+    color: green;
 }
 
 .AvisoHomePage{
     text-decoration: none;
     color: black;
     padding: 20px;
+    color: #DC143C;
 
+}
+
+.AvisoHomePage:hover{
+    color: green;
 }
 
 .ParceirosHomePage{
     text-decoration: none;
     color: black;
     padding: 20px;
+    color: #DC143C;
+}
+
+.ParceirosHomePage:hover{
+    color: green;
 }
 
 .DoaçãoHomePage{
     text-decoration: none;
     color: black;
     padding: 20px;
+    color: #DC143C;
+}
+
+.DoaçãoHomePage:hover{
+    color: green;
 }
 
 .InstagramHomePage{
