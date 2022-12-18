@@ -276,9 +276,9 @@
 
 .MascoteNuvemHome{
     position: absolute;
-    width: 10%;
+    width: 17%;
     margin-top: 110%;
-    margin-left: 10% ;
+    margin-left: 5% ;
     z-index: 0;
     animation: nuvemGatoAnimation 5s ease-in-out infinite alternate;
 }
@@ -331,7 +331,7 @@
 
     margin-left: 23%;
     margin-top: 110%;
-    font-size: 230%;
+    font-size: 231%;
     max-width: 0;
     white-space: nowrap;
     overflow: hidden;
@@ -458,54 +458,86 @@
 }
 
 .PoliticaHomePage{
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-}
+    position: absolute;
+     text-decoration: none;
+     color: white;
+     padding: 20px;
+     margin-left: -5%;
+     margin-top: -1%;
+    }
 
-.AvisoHomePage{
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-
-}
-
-.ParceirosHomePage{
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-}
-
-.DoaçãoHomePage{
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-}
-
-.InstagramHomePage{
-   margin-left: 250px;
-    width: 45px;
-   
     
-    
-}
+ 
+ 
+ 
+ .AvisoHomePage{
+     position: absolute;
+     text-decoration: none;
+     color: white;
+     margin-left: 15%;
+     padding: 20px;
+     
+     margin-top: -1%;
+ 
+ }
+ 
+ 
+ 
+ .ParceirosHomePage{
+     position: absolute;
+     text-decoration: none;
+     color: white;
+     padding: 20px;
+     margin-left: 33%;
+     
+     margin-top: -1%;
+ }
+ 
+ 
+ 
+ .DoaçãoHomePage{
+     position: absolute;
+     text-decoration: none;
+     color: white;
+     padding: 20px;
+     margin-left: 45%;
 
-.WhatsappHomepage{
-    width: 45px;
-    margin-left: 20px;
+     margin-top: -1%;
+ 
+ }
+ 
+ 
+ 
+ .InstagramHomePage{
+     position: absolute;
+    margin-left: 71%;
+     width: 45px;
+     margin-top: -0.5%;
     
-    
-
-}
-
-.GmailHomePage{
-    margin-left: 20px;
-    width: 45px;
-    
-    
-    
-}
-
-
-
+     
+     
+ }
+ 
+ .WhatsappHomepage{
+     position: absolute;
+     width: 45px;
+     margin-left: 20px;
+     margin-left: 78%;
+     margin-top: -0.5%;
+     
+     
+ 
+ }
+ 
+ .GmailHomePage{
+     position: absolute;
+     margin-left: 85%;
+     width: 45px;
+     margin-top: -0.5%;
+     
+     
+     
+ }
+ 
+ 
 
