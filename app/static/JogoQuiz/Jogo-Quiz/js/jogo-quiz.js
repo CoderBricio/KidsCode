@@ -17,7 +17,7 @@ let perguntas = [
     },
     {
         titulo: 'onde a cobrinha começa no jogo?',
-        alternativas: ['Canto superio direito', 'Canto inferior direito', 'Canto superio esquedo', 'Canto inferior esquerdo'],
+        alternativas: ['Canto superior direito', 'Canto inferior direito', 'Canto superior esquerdo', 'Canto inferior esquerdo'],
         correta: 2
     },
     {

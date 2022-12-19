@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -20,7 +21,7 @@ h2{
     position: absolute;
     margin-top: -19%;
     margin-left: -2%;
-    left: 34%;
+    left: 36%;
 }
 
 /*começa a animação do cenario*/
@@ -197,7 +198,8 @@ h2{
 }
 
 .NavePrincial{
-    margin-left: 6.5%;
+    margin-left: -16%;
+    width: 30%;
 }
 
 

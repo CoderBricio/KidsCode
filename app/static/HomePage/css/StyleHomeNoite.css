@@ -5,7 +5,6 @@
 
 
 
-
 }
 
 
@@ -385,7 +384,7 @@
     box-sizing: unset;
     align-items: center;
     justify-content: center;
-    margin-left: 8%;
+    margin-left: 18%;
     margin-top: 10%;
     padding: 40px;
     display: flex;
@@ -486,7 +485,7 @@
     color: #0B0A4B;
     border-radius: 10px;
     border: 0;
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
 }
 

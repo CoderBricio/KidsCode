@@ -238,7 +238,6 @@
 
 
 
-
 .JogosHomePageTitulo {
     position: absolute;
 
@@ -323,7 +322,7 @@
     box-sizing: unset;
     align-items: center;
     justify-content: center;
-    margin-left: 8%;
+    margin-left: 18%;
     margin-top: 15%;
     padding: 40px;
     display: flex;
@@ -426,6 +425,7 @@
     border-radius: 10px;
     border: 0;
     cursor: pointer;
+    font-size: 25px;
 }
 
 #JogarBTNHome:hover {
