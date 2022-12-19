@@ -5,62 +5,6 @@ bolaX.addEventListener("click", function(){
     localStorage.setItem("valueSrc", persistenteSrc);
 });
 
-
-/*Quando a pessoa vinher da home page para o perfil, pegará a foto da homepage e colocara na foto de perfil. Isso é uma forma de salvar as alterações que usuário fizer.*/
-var fotoPerfil = document.querySelector(".foto_perfil");
-var fotoPerfilSrc = localStorage.getItem("valueSrcPerfil");
-switch(fotoPerfilSrc){
-    case "/images/astro-roxo.png":{
-        fotoPerfil.src = "../images/astro-roxo.png";
-    }break;
-    case "/images/astro-azul.png":{
-        fotoPerfil.src = "../images/astro-azul.png";
-    }break;
-    case "/images/astro-amare.png":{
-        fotoPerfil.src = "../images/astro-amare.png";
-    }break;
-    case "/images/astro-verme.png":{
-        fotoPerfil.src = "../images/astro-verme.png";
-    }break;
-    case "/images/astro-verde.png":{
-        fotoPerfil.src = "../images/astro-verde.png";
-    }break;
-}
-
-
-//Mostrar e esconder as fotos dos astronautas para o usuário escolher pro perfil.
-const bolaCruz = document.querySelector('.bola_cruz'); 
-const escolhaFotos = document.querySelector('.escolha_fotos');
-bolaCruz.addEventListener("click", function(){
-    if(escolhaFotos.style.display === "none"){
-        escolhaFotos.style.display = "block";
-    }else{
-        escolhaFotos.style.display = "none";
-    }
-})
-
-//Alteração" da cor do background-color da div onde está as informações do usuário. A cor será igual a cor do astronauta da foto de perfil
-var fotoPerfil = document.querySelector('.foto_perfil');
-var infoUsu = document.querySelector(".info_usu");
-function alterarCorInfoUsu(fotoPerfil){
-    switch(fotoPerfil.src){
-        case 'http://127.0.0.1:5000/static/Perfil/images/astro-azul.png':{
-            infoUsu.style.backgroundColor = "rgb(" + 0 + "," + 0 + "," + 255 +"," + 0.5 +")"; 
-        }break;
-        case 'http://127.0.0.1:5000/static/Perfil/images/astro-roxo.png':{
-            infoUsu.style.backgroundColor = "rgb(" + 105 + "," + 5 + "," + 179 +"," + 0.5 +")"; 
-        }break;
-        case 'http://127.0.0.1:5000/static/Perfil/images/astro-verme.png':{ 
-            infoUsu.style.backgroundColor = "rgb(" + 255 + "," + 0 + "," + 0 +"," + 0.5 +")"; 
-        }break;
-        case 'http://127.0.0.1:5000/static/Perfil/images/astro-amare.png':{
-            infoUsu.style.backgroundColor = "rgb(" + 255 + "," + 255 + "," + 0 +"," + 0.5 +")"; 
-        }break;
-        case 'http://127.0.0.1:5000/static/Perfil/images/astro-verde.png':{
-            infoUsu.style.backgroundColor = "rgb(" + 5 + "," + 237 + "," + 0 +"," + 0.5 +")"; 
-        }break;
-    }    
-};
 //Trocar foto de perfil
 var fotoPerfilSrc;
 const astro01 = document.querySelector('#astro01');
@@ -99,6 +43,74 @@ astro04.addEventListener('click', function(e){
     astro04.src = fotoPerfilSrc;
     alterarCorInfoUsu(fotoPerfil);
 })
+
+//Alteração" da cor do background-color da div onde está as informações do usuário. A cor será igual a cor do astronauta da foto de perfil
+var fotoPerfil = document.querySelector('.foto_perfil');
+var infoUsu = document.querySelector(".info_usu");
+function alterarCorInfoUsu(fotoPerfil){
+    switch(fotoPerfil.src){
+        case 'http://127.0.0.1:5000/static/Perfil/images/astro-azul.png':{
+            infoUsu.style.backgroundColor = "rgb(" + 0 + "," + 0 + "," + 255 +"," + 0.5 +")"; 
+        }break;
+        case 'http://127.0.0.1:5000/static/Perfil/images/astro-roxo.png':{
+            infoUsu.style.backgroundColor = "rgb(" + 105 + "," + 5 + "," + 179 +"," + 0.5 +")"; 
+        }break;
+        case 'http://127.0.0.1:5000/static/Perfil/images/astro-verme.png':{ 
+            infoUsu.style.backgroundColor = "rgb(" + 255 + "," + 0 + "," + 0 +"," + 0.5 +")"; 
+        }break;
+        case 'http://127.0.0.1:5000/static/Perfil/images/astro-amare.png':{
+            infoUsu.style.backgroundColor = "rgb(" + 255 + "," + 255 + "," + 0 +"," + 0.5 +")"; 
+        }break;
+        case 'http://127.0.0.1:5000/static/Perfil/images/astro-verde.png':{
+            infoUsu.style.backgroundColor = "rgb(" + 5 + "," + 237 + "," + 0 +"," + 0.5 +")"; 
+        }break;
+    }    
+};
+
+
+
+/*Quando a pessoa vinher da home page para o perfil, pegará a foto da homepage e colocara na foto de perfil. Isso é uma forma de salvar as alterações que usuário fizer.*/
+var fotoPerfil = document.querySelector(".foto_perfil");
+var fotoPerfilSrc = localStorage.getItem("valueSrcPerfil");
+switch(fotoPerfilSrc){
+    case "http://127.0.0.1:5000/static/Perfil/images/astro-roxo.png":{
+        fotoPerfil.src = "../../static/Perfil/images/astro-roxo.png";
+    }break;
+    case "http://127.0.0.1:5000/static/Perfil/images/astro-azul.png":{
+        fotoPerfil.src = "../../static/Perfil/images/astro-azul.png";
+        astro02.src = "../../static/Perfil/images/astro-roxo.png"
+        alterarCorInfoUsu(fotoPerfil);
+    }break;
+    case "http://127.0.0.1:5000/static/Perfil/images/astro-amare.png":{
+        fotoPerfil.src = "../../static/Perfil/images/astro-amare.png";
+        astro01.src = "../../static/Perfil/images/astro-roxo.png"
+        alterarCorInfoUsu(fotoPerfil);
+    }break;
+    case "http://127.0.0.1:5000/static/Perfil/images/astro-verme.png":{
+        fotoPerfil.src = "../../static/Perfil/images/astro-verme.png";
+        astro04.src = "../../static/Perfil/images/astro-roxo.png"
+        alterarCorInfoUsu(fotoPerfil);
+    }break;
+    case "http://127.0.0.1:5000/static/Perfil/images/astro-verde.png":{
+        fotoPerfil.src = "../../static/Perfil/images/astro-verde.png";
+        astro03.src = "../../static/Perfil/images/astro-roxo.png"
+        alterarCorInfoUsu(fotoPerfil);
+    }break;
+}
+
+
+//Mostrar e esconder as fotos dos astronautas para o usuário escolher pro perfil.
+const bolaCruz = document.querySelector('.bola_cruz'); 
+const escolhaFotos = document.querySelector('.escolha_fotos');
+bolaCruz.addEventListener("click", function(){
+    if(escolhaFotos.style.display === "none"){
+        escolhaFotos.style.display = "block";
+    }else{
+        escolhaFotos.style.display = "none";
+    }
+})
+
+
 
 //Ao clicar no icone lapís, mostra e esconde o input para mudar nome do usuário        
 const lapis = document.querySelector('.lapis'); 
