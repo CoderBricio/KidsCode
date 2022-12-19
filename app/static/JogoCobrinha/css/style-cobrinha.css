@@ -165,6 +165,11 @@ header {
     padding-left: 30%;
     width: 40%;
     margin-top: -1.5%;
+    border-radius: 30px;
+}
+
+.jogo-cobrinha img {
+    border-radius: 30px;
 }
 
 .balao3 {
@@ -274,7 +279,9 @@ header {
     display: flex;
     margin-left: 30%;
     position: relative;
-
+    width:670; 
+    height:450;
+    border-radius: 30px;
 }
 
 .minhoca-verde {

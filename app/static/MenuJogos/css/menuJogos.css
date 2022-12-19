@@ -5,7 +5,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
+.object {
+    text-align: center;
+    margin-right: 30%;
+}
 
 .logo{
     position: absolute ;
@@ -75,7 +78,7 @@ h2{
     content: '';
     position: absolute;
     bottom: -200px;
-    left: 52%;
+    left: 53.5%;
     transform: translateX(-50%);
     width: 5px;
     height: 200px;
@@ -86,7 +89,7 @@ h2{
     content: '';
     position: absolute;
     bottom: -200px;
-    left: 52%;
+    left: 53.5%;
     transform: translateX(-50%);
     width: 5px;
     height: 200px;
@@ -98,7 +101,7 @@ h2{
     content: '';
     position: absolute;
     bottom: -200px;
-    left: 49.5%;
+    left: 48.5%;
     transform: translateX(-50%);
     width: 5px;
     height: 200px;
@@ -198,7 +201,7 @@ h2{
 }
 
 .NavePrincial{
-    margin-left: -16%;
+    margin-left: -5%;
     width: 30%;
 }
 

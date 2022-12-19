@@ -170,6 +170,7 @@ animation: foguete-quizAnimation 0.8s ease-in-out infinite alternate;
     padding-left: 30%;
     width: 40%;
     margin-top: -1%;
+    border-radius: 30px;
 }
 
 .balao3-quiz {
@@ -305,7 +306,9 @@ animation: monstro2-quizAnimation 0.5s ease-in-out infinite alternate;
     display: flex;
     margin-left: 30%;
     position: relative;
-
+    width:670; 
+    height:450;
+    border-radius: 30px;
 }
 
 .bolas-video {

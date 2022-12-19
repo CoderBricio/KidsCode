@@ -165,7 +165,9 @@ header {
     padding-left: 30%;
     width: 40%;
     margin-top: -1.5%;
+    border-radius: 30px;
 }
+
 
 .balao3{
     font-family: 'Poppins', sans-serif;
@@ -307,9 +309,6 @@ header {
 
 .estrela4 {
     margin-left: 35%;
-  
-    
-   
 }
 
 .video {
@@ -317,7 +316,9 @@ header {
     display: flex;
     margin-left: 30%;
     position: relative;
-
+    width:670; 
+    height:450;
+    border-radius: 30px;
 }
 
 .robo-cortado {

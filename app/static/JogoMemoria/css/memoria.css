@@ -151,6 +151,8 @@
     padding-left: 30%;
     width: 40%;
     margin-top: -1.5%;
+    border-radius: 30px;
+    border-left: 30px;
 }
 
 .macaco_balao_galho{
@@ -333,6 +335,9 @@
     display: block;
     margin-left: 30%;
     position: relative;
+    width:670; 
+    height:450;
+    border-radius: 30px;
 }
 
 .planta_terra02{

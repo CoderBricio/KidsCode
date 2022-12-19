@@ -3,11 +3,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 
-
-
-
 }
-
 
 .HeaderHomePage {
     background: #98E1F8;
@@ -322,7 +318,7 @@
     box-sizing: unset;
     align-items: center;
     justify-content: center;
-    margin-left: 18%;
+    margin-left: 8%;
     margin-top: 15%;
     padding: 40px;
     display: flex;
@@ -345,6 +341,7 @@
     transform: translateY(-50%);
     transition: transform 0.1s linear;
 }
+
 
 .wrapper i:active {
     transform: translateY(-50%) scale(0.9);
@@ -391,8 +388,6 @@
 .carousel img:first-child {
     margin-left: 0px;
 }
-
-
 
 .Terra1Home {
     position: absolute;
