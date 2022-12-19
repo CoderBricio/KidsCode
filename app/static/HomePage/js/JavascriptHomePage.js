@@ -1,21 +1,22 @@
 /*O src da foto de perfil da página do perfil é evocada e usada na imagem da home page*/
 var imgX = document.querySelector(".imgX");
 var fotoPerfilHomeSrc = localStorage.getItem("valueSrc");
+console.log(fotoPerfilHomeSrc);
 switch(fotoPerfilHomeSrc){
-    case "file:///C:/KidCode/KidCode/Perfil/img/astro-roxo.png":{
-        imgX.src = "../Perfil/img/astro-roxo.png";
+    case "http://127.0.0.1:5000/static/Perfil/images/astro-roxo.png":{
+        imgX.src = "../static/Perfil/images/astro-roxo.png";
     }break;
     case "file:///C:/KidCode/KidCode/Perfil/img/astro-azul.png":{
-        imgX.src = "../Perfil/img/astro-azul.png";
+        imgX.src = "../static/Perfil/images/astro-azul.png";
     }break;
-    case "file:///C:/KidCode/KidCode/Perfil/img/astro-amare.png":{
-        imgX.src = "../Perfil/img/astro-amare.png";
+    case "http://127.0.0.1:5000/static/Perfil/images/astro-amare.png":{
+        imgX.src = "../static/Perfil/images/astro-amare.png";
     }break;
-    case "file:///C:/KidCode/KidCode/Perfil/img/astro-verme.png":{
-        imgX.src = "../Perfil/img/astro-verme.png";
+    case "http://127.0.0.1:5000/static/Perfil/images/astro-verme.png":{
+        imgX.src = "../static/Perfil/images/astro-verme.png";
     }break;
-    case "file:///C:/KidCode/KidCode/Perfil/img/astro-verde.png":{
-        imgX.src = "../Perfil/img/astro-verde.png";
+    case "http://127.0.0.1:5000/static/Perfil/images/astro-verde.png":{
+        imgX.src = "../static/Perfil/images/astro-verde.png";
     }break;
 }
 
