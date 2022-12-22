@@ -295,9 +295,9 @@
 
 .MascoteNuvemHome {
     position: absolute;
-    width: 10%;
+    width: 17%;
     margin-top: 110%;
-    margin-left: 10%;
+    margin-left: 7%;
     z-index: 0;
     animation: nuvemGatoAnimation 5s ease-in-out infinite alternate;
 }
@@ -384,7 +384,7 @@
     box-sizing: unset;
     align-items: center;
     justify-content: center;
-    margin-left: 8%;
+    margin-left: 2%;
     margin-top: 10%;
     padding: 40px;
     display: flex;
